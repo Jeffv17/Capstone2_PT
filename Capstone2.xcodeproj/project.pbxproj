@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5BE5896F27FF23D600A419A9 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5BE5896E27FF23D600A419A9 /* FirebaseAnalytics */; };
-		5BE5897127FF23D600A419A9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5BE5897027FF23D600A419A9 /* FirebaseAuth */; };
-		5BE5897327FF23D600A419A9 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 5BE5897227FF23D600A419A9 /* FirebaseDatabase */; };
+		280F39922805B4E600F15ACA /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280F39912805B4E600F15ACA /* ForgotPasswordViewController.swift */; };
+		2894D906281C1C220069D78B /* medications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2894D905281C1C220069D78B /* medications.swift */; };
+		28A55120282196270080B790 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 28A5511F282196270080B790 /* FirebaseAuth */; };
+		28BEB9AB2820329A0030E255 /* Psychotherapy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BEB9AA2820329A0030E255 /* Psychotherapy.swift */; };
+		28E3151C28215E5900B26C36 /* SocialSkillsTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E3151B28215E5900B26C36 /* SocialSkillsTraining.swift */; };
 		5BE5897527FF25D000A419A9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BE5897427FF25D000A419A9 /* GoogleService-Info.plist */; };
+		5D1A79772805AF7F000D4D09 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A79762805AF7F000D4D09 /* HomePageViewController.swift */; };
+		5D5040C02807009700149E2C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5040BF2807009700149E2C /* ProfileViewController.swift */; };
 		5DCCD5F027FF17C700AF2A56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCCD5EF27FF17C700AF2A56 /* AppDelegate.swift */; };
 		5DCCD5F727FF17C700AF2A56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DCCD5F527FF17C700AF2A56 /* Main.storyboard */; };
 		5DCCD5FC27FF17C800AF2A56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DCCD5FA27FF17C800AF2A56 /* LaunchScreen.storyboard */; };
@@ -22,23 +26,31 @@
 		5DCCD60F27FF180F00AF2A56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCCD60C27FF180E00AF2A56 /* ViewController.swift */; };
 		5DCCD61027FF180F00AF2A56 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCCD60D27FF180E00AF2A56 /* Utilities.swift */; };
 		5DCCD61227FF186100AF2A56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DCCD61127FF186100AF2A56 /* Assets.xcassets */; };
+		5DD159392816FC46007D69D5 /* BehavioralTreatment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD159382816FC46007D69D5 /* BehavioralTreatment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		280F39912805B4E600F15ACA /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		2894D905281C1C220069D78B /* medications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medications.swift; sourceTree = "<group>"; };
+		28BEB9AA2820329A0030E255 /* Psychotherapy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psychotherapy.swift; sourceTree = "<group>"; };
+		28E3151B28215E5900B26C36 /* SocialSkillsTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialSkillsTraining.swift; sourceTree = "<group>"; };
 		5BE5897427FF25D000A419A9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5D1A79762805AF7F000D4D09 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		5D5040BF2807009700149E2C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		5DCCD5EC27FF17C700AF2A56 /* Capstone2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capstone2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DCCD5EF27FF17C700AF2A56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DCCD5F627FF17C700AF2A56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DCCD5FB27FF17C800AF2A56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DCCD5FD27FF17C900AF2A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DCCD60327FF17F300AF2A56 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../SeniorCapstone2/SeniorCapstone2/SceneDelegate.swift; sourceTree = "<group>"; };
+		5DCCD60327FF17F300AF2A56 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5DCCD60427FF17F300AF2A56 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		5DCCD60527FF17F300AF2A56 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		5DCCD60627FF17F300AF2A56 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5DCCD60B27FF180E00AF2A56 /* signUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
-		5DCCD60C27FF180E00AF2A56 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../SeniorCapstone2/SeniorCapstone2/ViewController.swift; sourceTree = "<group>"; };
+		5DCCD60C27FF180E00AF2A56 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5DCCD60D27FF180E00AF2A56 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		5DCCD61127FF186100AF2A56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../SeniorCapstone2/SeniorCapstone2/Assets.xcassets; sourceTree = "<group>"; };
+		5DCCD61127FF186100AF2A56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DD159382816FC46007D69D5 /* BehavioralTreatment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehavioralTreatment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,20 +58,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BE5897327FF23D600A419A9 /* FirebaseDatabase in Frameworks */,
-				5BE5896F27FF23D600A419A9 /* FirebaseAnalytics in Frameworks */,
-				5BE5897127FF23D600A419A9 /* FirebaseAuth in Frameworks */,
+				28A55120282196270080B790 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28A5511E282196270080B790 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5DCCD5E327FF17C700AF2A56 = {
 			isa = PBXGroup;
 			children = (
 				5DCCD5EE27FF17C700AF2A56 /* Capstone2 */,
 				5DCCD5ED27FF17C700AF2A56 /* Products */,
+				28A5511E282196270080B790 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,13 +94,20 @@
 			children = (
 				5DCCD5EF27FF17C700AF2A56 /* AppDelegate.swift */,
 				5DCCD60C27FF180E00AF2A56 /* ViewController.swift */,
+				5DD159382816FC46007D69D5 /* BehavioralTreatment.swift */,
+				2894D905281C1C220069D78B /* medications.swift */,
+				28BEB9AA2820329A0030E255 /* Psychotherapy.swift */,
+				28E3151B28215E5900B26C36 /* SocialSkillsTraining.swift */,
 				5DCCD60327FF17F300AF2A56 /* SceneDelegate.swift */,
 				5DCCD60B27FF180E00AF2A56 /* signUpViewController.swift */,
 				5DCCD60527FF17F300AF2A56 /* LogInViewController.swift */,
 				5DCCD60627FF17F300AF2A56 /* HomeViewController.swift */,
+				5D1A79762805AF7F000D4D09 /* HomePageViewController.swift */,
 				5DCCD60427FF17F300AF2A56 /* SettingsViewController.swift */,
+				280F39912805B4E600F15ACA /* ForgotPasswordViewController.swift */,
 				5DCCD60D27FF180E00AF2A56 /* Utilities.swift */,
 				5DCCD5F527FF17C700AF2A56 /* Main.storyboard */,
+				5D5040BF2807009700149E2C /* ProfileViewController.swift */,
 				5DCCD61127FF186100AF2A56 /* Assets.xcassets */,
 				5DCCD5FA27FF17C800AF2A56 /* LaunchScreen.storyboard */,
 				5DCCD5FD27FF17C900AF2A56 /* Info.plist */,
@@ -108,9 +133,7 @@
 			);
 			name = Capstone2;
 			packageProductDependencies = (
-				5BE5896E27FF23D600A419A9 /* FirebaseAnalytics */,
-				5BE5897027FF23D600A419A9 /* FirebaseAuth */,
-				5BE5897227FF23D600A419A9 /* FirebaseDatabase */,
+				28A5511F282196270080B790 /* FirebaseAuth */,
 			);
 			productName = Capstone2;
 			productReference = 5DCCD5EC27FF17C700AF2A56 /* Capstone2.app */;
@@ -141,7 +164,7 @@
 			);
 			mainGroup = 5DCCD5E327FF17C700AF2A56;
 			packageReferences = (
-				5BE5896D27FF23D600A419A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				28A5511D282194AF0080B790 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 5DCCD5ED27FF17C700AF2A56 /* Products */;
 			projectDirPath = "";
@@ -171,11 +194,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2894D906281C1C220069D78B /* medications.swift in Sources */,
 				5DCCD5F027FF17C700AF2A56 /* AppDelegate.swift in Sources */,
 				5DCCD60E27FF180F00AF2A56 /* signUpViewController.swift in Sources */,
+				5D5040C02807009700149E2C /* ProfileViewController.swift in Sources */,
+				5D1A79772805AF7F000D4D09 /* HomePageViewController.swift in Sources */,
+				28BEB9AB2820329A0030E255 /* Psychotherapy.swift in Sources */,
+				5DD159392816FC46007D69D5 /* BehavioralTreatment.swift in Sources */,
+				28E3151C28215E5900B26C36 /* SocialSkillsTraining.swift in Sources */,
 				5DCCD60F27FF180F00AF2A56 /* ViewController.swift in Sources */,
 				5DCCD60927FF17F300AF2A56 /* LogInViewController.swift in Sources */,
 				5DCCD60827FF17F300AF2A56 /* SettingsViewController.swift in Sources */,
+				280F39922805B4E600F15ACA /* ForgotPasswordViewController.swift in Sources */,
 				5DCCD60A27FF17F300AF2A56 /* HomeViewController.swift in Sources */,
 				5DCCD61027FF180F00AF2A56 /* Utilities.swift in Sources */,
 				5DCCD60727FF17F300AF2A56 /* SceneDelegate.swift in Sources */,
@@ -396,31 +426,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		5BE5896D27FF23D600A419A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		28A5511D282194AF0080B790 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 8.9.0;
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5BE5896E27FF23D600A419A9 /* FirebaseAnalytics */ = {
+		28A5511F282196270080B790 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5BE5896D27FF23D600A419A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		5BE5897027FF23D600A419A9 /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5BE5896D27FF23D600A419A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 28A5511D282194AF0080B790 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
-		};
-		5BE5897227FF23D600A419A9 /* FirebaseDatabase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5BE5896D27FF23D600A419A9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabase;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
