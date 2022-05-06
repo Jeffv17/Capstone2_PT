@@ -657,25 +657,32 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
             </objects>
             <point key="canvasLocation" x="4374" y="148"/>
         </scene>
-        <!--View Controller-->
+        <!--Family Therapy-->
         <scene sceneID="kwF-wD-xCG">
             <objects>
-                <viewController id="dwj-oI-4ac" sceneMemberID="viewController">
+                <viewController id="dwj-oI-4ac" customClass="FamilyTherapy" customModule="Capstone2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="knF-Pr-T6L">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kro-rt-ypb">
-                                <rect key="frame" x="143" y="294" width="106" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Watch Video"/>
-                            </button>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Tmg-fi-7OF"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Mg1-m1-Lhy"/>
+                    <navigationItem key="navigationItem" id="Mg1-m1-Lhy">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="XiU-G9-gt0">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Kro-rt-ypb">
+                                <rect key="frame" x="253.33333333333334" y="5" width="120.66666666666666" height="34.333333333333336"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Watch Video"/>
+                                <connections>
+                                    <action selector="videoTapped:" destination="dwj-oI-4ac" eventType="touchUpInside" id="dnc-GD-iWp"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="watchVideo" destination="Kro-rt-ypb" id="5PE-ct-wen"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y08-Qt-v8w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -873,7 +880,7 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                                 <rect key="frame" x="16" y="420" width="358" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Study Techniques">
+                                <buttonConfiguration key="configuration" style="filled" title="Stress Tools">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                 </buttonConfiguration>
                             </button>
@@ -881,20 +888,12 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                                 <rect key="frame" x="16" y="351" width="358" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Doctors and Departments">
+                                <buttonConfiguration key="configuration" style="filled" title="Study Techniques">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zN-Gb-ax1">
                                 <rect key="frame" x="16" y="491" width="358" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Stress Tools">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EzM-9x-Zy5">
-                                <rect key="frame" x="16" y="561" width="358" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Ways to improve your focus space">
