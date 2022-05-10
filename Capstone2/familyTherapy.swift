@@ -1,30 +1,29 @@
 //
-//  FamilyTherapy.swift
+//  familyTherapy.swift
 //  Capstone2
 //
-//  Created by Jeffrey Voltaire on 5/5/22.
+//  Created by Jeffrey Voltaire on 5/6/22.
 //
 
 import AVKit
 import AVFoundation
 import UIKit
 
-class FamilyTherapy: UIViewController {
+class familyTherapy: UIViewController {
 
     @IBOutlet weak var watchVideo: UIButton!
-    
+   
     override func viewDidLoad() {
+        
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func videoTapped(_ sender: Any) {
         let player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "FamilyTherapy", ofType: "mp4")!))
-                    let vc = AVPlayerViewController()
-                    vc.player = player
-                    present(vc, animated: true)
-
+                        let vc = AVPlayerViewController()
+                        vc.player = player
+                        present(vc, animated: true)
     }
     
 

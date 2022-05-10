@@ -20,7 +20,7 @@ class SocialSkillsTraining: UIViewController {
     }
     
     @IBAction func videoTapped(_ sender: Any) {
-        let player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "SocialSkillsTraining", ofType: "mp4")!))
+        let player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "socialSkillsTraining", ofType: "mp4")!))
                     let vc = AVPlayerViewController()
                     vc.player = player
                     present(vc, animated: true)
