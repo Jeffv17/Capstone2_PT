@@ -208,7 +208,7 @@
                                 <rect key="frame" x="31" y="190" width="325" height="357"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W8Q-go-SxX">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W8Q-go-SxX">
                                 <rect key="frame" x="40" y="661" width="310" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Xb3-fC-C2H"/>
@@ -223,10 +223,15 @@
                         <viewLayoutGuide key="safeArea" id="mAB-cl-zLJ"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="zhr-Bp-uyc" firstAttribute="top" secondItem="W8Q-go-SxX" secondAttribute="bottom" constant="20.333333333333371" id="5dJ-OX-2CD"/>
+                            <constraint firstItem="W8Q-go-SxX" firstAttribute="centerX" secondItem="zhr-Bp-uyc" secondAttribute="centerX" id="9qg-iG-6vN"/>
                             <constraint firstItem="mAB-cl-zLJ" firstAttribute="trailing" secondItem="TTK-qa-ABq" secondAttribute="trailing" constant="40" id="AxP-jm-2wf"/>
+                            <constraint firstItem="W8Q-go-SxX" firstAttribute="width" secondItem="zhr-Bp-uyc" secondAttribute="width" id="QZ7-Je-jfL"/>
                             <constraint firstItem="TTK-qa-ABq" firstAttribute="leading" secondItem="mAB-cl-zLJ" secondAttribute="leading" constant="40" id="S6g-PG-mDg"/>
+                            <constraint firstItem="W8Q-go-SxX" firstAttribute="leading" secondItem="zhr-Bp-uyc" secondAttribute="leading" id="UKM-fV-XfK"/>
                             <constraint firstItem="mAB-cl-zLJ" firstAttribute="bottom" secondItem="TTK-qa-ABq" secondAttribute="bottom" constant="40" id="VwY-Ad-Yyi"/>
                             <constraint firstItem="W8Q-go-SxX" firstAttribute="height" secondItem="zhr-Bp-uyc" secondAttribute="height" multiplier="1.29032" id="nDl-QI-5va"/>
+                            <constraint firstItem="W8Q-go-SxX" firstAttribute="trailing" secondItem="zhr-Bp-uyc" secondAttribute="trailing" id="sNb-HO-X77"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="j4I-HR-aSj"/>
@@ -1182,6 +1187,7 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                                     <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="antiguaTapped:" destination="okA-Wl-pk0" eventType="touchUpInside" id="LNi-vS-do2"/>
                                     <segue destination="SQy-wI-7aW" kind="show" id="UVq-oe-JZy"/>
                                 </connections>
                             </button>
@@ -1324,6 +1330,9 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="antiguaHours" destination="g8M-JG-AJp" id="Atv-Es-PWl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MAA-b1-6gb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1337,19 +1346,19 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="office-hours_featured-blog_725x483" translatesAutoresizingMaskIntoConstraints="NO" id="Hkr-xM-YkP">
-                                <rect key="frame" x="52" y="178" width="287" height="189"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="office-hours" translatesAutoresizingMaskIntoConstraints="NO" id="Hkr-xM-YkP">
+                                <rect key="frame" x="52" y="128" width="287" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Appointment Successful!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ETq-BO-JJi">
-                                <rect key="frame" x="59" y="438" width="260" height="27"/>
+                                <rect key="frame" x="65" y="409" width="260" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="See you at 3:30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ksl-su-tfy">
-                                <rect key="frame" x="120" y="488" width="153" height="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="See you Soon!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ksl-su-tfy">
+                                <rect key="frame" x="125" y="444" width="140" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                 <nil key="textColor"/>
@@ -1363,7 +1372,7 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Nh-UC-OcF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3571" y="-1929"/>
+            <point key="canvasLocation" x="3570.7692307692305" y="-1929.3838862559242"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="yaA-qE-RxJ">
@@ -1884,7 +1893,7 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
         <image name="gear" catalog="system" width="128" height="119"/>
         <image name="istockphoto-1307387607-1024x1024" width="1024" height="1024"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
-        <image name="office-hours_featured-blog_725x483" width="725" height="483"/>
+        <image name="office-hours" width="275" height="183"/>
         <image name="rick" width="225" height="225"/>
         <image name="star.circle" catalog="system" width="128" height="121"/>
         <systemColor name="labelColor">

@@ -10,6 +10,7 @@ import Firebase
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet weak var antiguaHours: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -19,7 +20,10 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func antiguaTapped(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://calendly.com/jeffreyv300-courseconnect/30min")! as URL, options: [:], completionHandler: nil)
+    }
+    
     @IBAction func signOut(_ sender: Any) {
         
          // 1
