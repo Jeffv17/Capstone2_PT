@@ -21,7 +21,7 @@ class HomeViewController: UIViewController {
     }
     
     @IBAction func antiguaTapped(_ sender: Any) {
-        UIApplication.shared.open(URL(string:"https://calendly.com/jeffreyv300-courseconnect/30min")! as URL, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL(string:"https://calendly.com/jeffreyv300-courseconnect/antigua-office-hours")! as URL, options: [:], completionHandler: nil)
     }
     
     @IBAction func signOut(_ sender: Any) {

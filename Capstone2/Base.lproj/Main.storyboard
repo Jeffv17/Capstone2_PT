@@ -16,6 +16,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="y3s-Ea-d1T">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="850"/>
+                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="0Kh-EQ-HDW">
                                 <rect key="frame" x="40" y="128" width="310" height="330"/>
                                 <subviews>
@@ -63,7 +66,11 @@
                         <viewLayoutGuide key="safeArea" id="gWW-Iy-23W"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="gWW-Iy-23W" firstAttribute="trailing" secondItem="y3s-Ea-d1T" secondAttribute="trailing" id="5Aq-bp-bPx"/>
+                            <constraint firstItem="gWW-Iy-23W" firstAttribute="bottom" secondItem="y3s-Ea-d1T" secondAttribute="bottom" constant="-40" id="BgH-wg-xwc"/>
+                            <constraint firstItem="y3s-Ea-d1T" firstAttribute="top" secondItem="eEk-Gr-inb" secondAttribute="top" id="EOu-xc-VTm"/>
                             <constraint firstItem="0Kh-EQ-HDW" firstAttribute="top" secondItem="gWW-Iy-23W" secondAttribute="top" constant="40" id="PUj-zR-3UK"/>
+                            <constraint firstItem="y3s-Ea-d1T" firstAttribute="leading" secondItem="eEk-Gr-inb" secondAttribute="leading" id="Pft-Og-Xgt"/>
                             <constraint firstItem="gWW-Iy-23W" firstAttribute="trailing" secondItem="0Kh-EQ-HDW" secondAttribute="trailing" constant="40" id="gWE-rv-c9T"/>
                             <constraint firstItem="0Kh-EQ-HDW" firstAttribute="leading" secondItem="gWW-Iy-23W" secondAttribute="leading" constant="40" id="wU6-Dz-8EH"/>
                         </constraints>
@@ -145,13 +152,6 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                 </buttonConfiguration>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grade 9 Courses" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rYq-dm-jrE">
-                                <rect key="frame" x="93" y="88" width="204" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J58-4f-38Z">
                                 <rect key="frame" x="16" y="506" width="358" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -160,6 +160,13 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                 </buttonConfiguration>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grade 9 Courses" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rYq-dm-jrE">
+                                <rect key="frame" x="74" y="88" width="243" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="h5Q-VP-ZMJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -177,6 +184,79 @@
             <point key="canvasLocation" x="2037" y="-539"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="sLo-hd-blo">
+            <objects>
+                <viewController id="tEB-VH-2p7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fba-iz-nYH">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Studying Techniques" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p85-uU-cqH">
+                                <rect key="frame" x="44" y="88" width="303" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVR-0I-1ZE">
+                                <rect key="frame" x="16" y="313" width="358" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="SQ3R Method">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ns8-jg-CC6">
+                                <rect key="frame" x="16" y="386" width="358" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Retrieval Practice">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sw2-Hf-rt0">
+                                <rect key="frame" x="16" y="245" width="358" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Spaced Practice">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iz5-ap-RPM">
+                                <rect key="frame" x="16" y="455" width="358" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="PQ4R Method">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8d-16-jk2">
+                                <rect key="frame" x="16" y="170" width="358" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="The Feynman Technique">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QT6-MF-LZB">
+                                <rect key="frame" x="16" y="520" width="358" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Leitner System">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jLb-FC-pv8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="74l-gR-L8s"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LjG-WV-zMd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2801.5384615384614" y="-545.26066350710903"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="PVb-RY-MYS">
             <objects>
                 <viewController id="6hs-df-tZo" customClass="ViewController" customModule="Capstone2" customModuleProvider="target" sceneMemberID="viewController">
@@ -184,6 +264,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="EtO-2r-3w9">
+                                <rect key="frame" x="0.0" y="-12" width="390" height="872"/>
+                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="TTK-qa-ABq">
                                 <rect key="frame" x="40" y="731.33333333333337" width="310" height="38.666666666666629"/>
                                 <subviews>
@@ -201,10 +284,10 @@
                                 <rect key="frame" x="12" y="88" width="362" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" systemColor="linkColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-03-01 at 9.06.44 AM" translatesAutoresizingMaskIntoConstraints="NO" id="VzO-KW-D7V">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.3.sequence" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="VzO-KW-D7V">
                                 <rect key="frame" x="31" y="190" width="325" height="357"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -223,15 +306,19 @@
                         <viewLayoutGuide key="safeArea" id="mAB-cl-zLJ"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="EtO-2r-3w9" firstAttribute="leading" secondItem="mAB-cl-zLJ" secondAttribute="leading" id="1xc-qm-vxp"/>
                             <constraint firstItem="zhr-Bp-uyc" firstAttribute="top" secondItem="W8Q-go-SxX" secondAttribute="bottom" constant="20.333333333333371" id="5dJ-OX-2CD"/>
                             <constraint firstItem="W8Q-go-SxX" firstAttribute="centerX" secondItem="zhr-Bp-uyc" secondAttribute="centerX" id="9qg-iG-6vN"/>
                             <constraint firstItem="mAB-cl-zLJ" firstAttribute="trailing" secondItem="TTK-qa-ABq" secondAttribute="trailing" constant="40" id="AxP-jm-2wf"/>
+                            <constraint firstItem="EtO-2r-3w9" firstAttribute="top" secondItem="mAB-cl-zLJ" secondAttribute="top" constant="-100" id="Bgk-xP-y15"/>
                             <constraint firstItem="W8Q-go-SxX" firstAttribute="width" secondItem="zhr-Bp-uyc" secondAttribute="width" id="QZ7-Je-jfL"/>
                             <constraint firstItem="TTK-qa-ABq" firstAttribute="leading" secondItem="mAB-cl-zLJ" secondAttribute="leading" constant="40" id="S6g-PG-mDg"/>
                             <constraint firstItem="W8Q-go-SxX" firstAttribute="leading" secondItem="zhr-Bp-uyc" secondAttribute="leading" id="UKM-fV-XfK"/>
                             <constraint firstItem="mAB-cl-zLJ" firstAttribute="bottom" secondItem="TTK-qa-ABq" secondAttribute="bottom" constant="40" id="VwY-Ad-Yyi"/>
+                            <constraint firstItem="mAB-cl-zLJ" firstAttribute="trailing" secondItem="EtO-2r-3w9" secondAttribute="trailing" id="dHG-Ie-cMF"/>
                             <constraint firstItem="W8Q-go-SxX" firstAttribute="height" secondItem="zhr-Bp-uyc" secondAttribute="height" multiplier="1.29032" id="nDl-QI-5va"/>
                             <constraint firstItem="W8Q-go-SxX" firstAttribute="trailing" secondItem="zhr-Bp-uyc" secondAttribute="trailing" id="sNb-HO-X77"/>
+                            <constraint firstItem="EtO-2r-3w9" firstAttribute="bottom" secondItem="mAB-cl-zLJ" secondAttribute="bottom" constant="50" id="wCQ-qv-qWv"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="j4I-HR-aSj"/>
@@ -242,7 +329,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UsG-oN-YLS" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1257" y="-1253"/>
+            <point key="canvasLocation" x="1256.9230769230769" y="-1253.3175355450237"/>
         </scene>
         <!--Log In View Controller-->
         <scene sceneID="upb-DF-9n4">
@@ -252,6 +339,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="6mw-nb-57X">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="By signing in, you agree to out Terms of Service and Privacy Polocy " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KUc-cI-AFx">
+                                <rect key="frame" x="31" y="761" width="328" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" systemColor="systemGray2Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Ue6-fI-C01">
                                 <rect key="frame" x="40" y="128" width="310" height="88"/>
                                 <subviews>
@@ -294,15 +391,26 @@
                                     <action selector="loginTapped:" destination="3l4-5f-tR0" eventType="touchUpInside" id="3wx-x0-8Pj"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Course Connect 1.5(38509)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1AS-eq-Z61">
+                                <rect key="frame" x="116" y="738" width="158" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" systemColor="systemGray2Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5rP-h8-tUL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="GWT-1y-DRN" firstAttribute="trailing" secondItem="Ue6-fI-C01" secondAttribute="trailing" id="6bg-dr-94F"/>
+                            <constraint firstAttribute="bottom" secondItem="6mw-nb-57X" secondAttribute="bottom" id="9F9-ed-Z1o"/>
                             <constraint firstItem="GWT-1y-DRN" firstAttribute="top" secondItem="vga-I4-tcN" secondAttribute="bottom" constant="20" id="Dkl-s0-PnV"/>
+                            <constraint firstItem="6mw-nb-57X" firstAttribute="trailing" secondItem="5rP-h8-tUL" secondAttribute="trailing" id="ES7-yG-MFH"/>
                             <constraint firstItem="Ue6-fI-C01" firstAttribute="leading" secondItem="5rP-h8-tUL" secondAttribute="leading" constant="40" id="QhD-pp-zsI"/>
+                            <constraint firstItem="6mw-nb-57X" firstAttribute="leading" secondItem="5rP-h8-tUL" secondAttribute="leading" id="RrX-XD-E88"/>
                             <constraint firstItem="vga-I4-tcN" firstAttribute="leading" secondItem="5rP-h8-tUL" secondAttribute="leading" constant="23" id="TV3-Nt-hY2"/>
                             <constraint firstItem="5rP-h8-tUL" firstAttribute="trailing" secondItem="Ue6-fI-C01" secondAttribute="trailing" constant="40" id="Vhe-RW-F79"/>
+                            <constraint firstItem="6mw-nb-57X" firstAttribute="top" secondItem="CWh-Ud-SFQ" secondAttribute="top" id="fd6-q5-BgT"/>
                             <constraint firstItem="GWT-1y-DRN" firstAttribute="leading" secondItem="Ue6-fI-C01" secondAttribute="leading" id="nwu-ju-VGT"/>
                             <constraint firstItem="Ue6-fI-C01" firstAttribute="top" secondItem="5rP-h8-tUL" secondAttribute="top" constant="40" id="smu-FE-Xxo"/>
                             <constraint firstItem="5rP-h8-tUL" firstAttribute="trailing" secondItem="vga-I4-tcN" secondAttribute="trailing" constant="208" id="x0H-GN-mq3"/>
@@ -335,6 +443,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="XfB-Cp-mut">
+                                <rect key="frame" x="0.0" y="-2" width="390" height="846"/>
+                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="xvV-fO-acJ">
                                 <rect key="frame" x="50" y="50" width="290" height="560"/>
                                 <subviews>
@@ -399,9 +510,13 @@
                         <viewLayoutGuide key="safeArea" id="8YZ-jP-Yve"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="XfB-Cp-mut" firstAttribute="leading" secondItem="Gz0-ey-yMF" secondAttribute="leading" id="4Nw-0K-ai2"/>
                             <constraint firstItem="xvV-fO-acJ" firstAttribute="leading" secondItem="8YZ-jP-Yve" secondAttribute="leading" constant="50" id="7qv-uy-WuW"/>
+                            <constraint firstAttribute="bottom" secondItem="XfB-Cp-mut" secondAttribute="bottom" id="HC3-k2-9U5"/>
                             <constraint firstItem="8YZ-jP-Yve" firstAttribute="bottom" secondItem="xvV-fO-acJ" secondAttribute="bottom" constant="200" id="dhM-Um-941"/>
                             <constraint firstItem="xvV-fO-acJ" firstAttribute="top" secondItem="Gz0-ey-yMF" secondAttribute="top" constant="50" id="jMA-Ev-ZIJ"/>
+                            <constraint firstItem="8YZ-jP-Yve" firstAttribute="trailing" secondItem="XfB-Cp-mut" secondAttribute="trailing" id="kKm-Dq-H5T"/>
+                            <constraint firstItem="XfB-Cp-mut" firstAttribute="top" secondItem="8YZ-jP-Yve" secondAttribute="top" constant="-90" id="thA-6c-etI"/>
                             <constraint firstAttribute="trailing" secondItem="xvV-fO-acJ" secondAttribute="trailing" constant="50" id="zra-kn-rQ4"/>
                         </constraints>
                     </view>
@@ -473,20 +588,20 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="6Ph-az-vl3">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="CUT-x0-HFJ">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="M5N-0E-At7">
-                                <rect key="frame" x="253.33333333333334" y="0.0" width="120.66666666666666" height="44"/>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="MYB-rq-tzE">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="j5N-oa-XNI">
+                                <rect key="frame" x="253.33333333333334" y="5" width="120.66666666666666" height="34.333333333333336"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Watch Video"/>
                                 <connections>
-                                    <action selector="videoTapped:" destination="n4A-6L-arz" eventType="touchUpInside" id="1jk-3R-Ogv"/>
+                                    <action selector="videoTapped:" destination="n4A-6L-arz" eventType="touchUpInside" id="pOQ-RY-L6d"/>
                                 </connections>
                             </button>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="watchVideo" destination="M5N-0E-At7" id="ScV-ZY-7uV"/>
+                        <outlet property="watchVideo" destination="j5N-oa-XNI" id="7YJ-dj-4gG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KpM-jQ-quD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -642,20 +757,20 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="n37-0V-wDz">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="tvV-r3-bem">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="NSh-bb-z3H">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="Yta-Fe-TNi">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="aYH-Cc-JPz">
                                 <rect key="frame" x="253.33333333333334" y="5" width="120.66666666666666" height="34.333333333333336"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Watch Video"/>
                                 <connections>
-                                    <action selector="videoTapped:" destination="vJj-4I-s4Q" eventType="touchUpInside" id="gh5-Js-W8B"/>
+                                    <action selector="videoTapped:" destination="vJj-4I-s4Q" eventType="touchUpInside" id="qiV-ve-ViY"/>
                                 </connections>
                             </button>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="watchVideo" destination="NSh-bb-z3H" id="6Ch-Rc-K8K"/>
+                        <outlet property="watchVideo" destination="aYH-Cc-JPz" id="xq0-Oo-iXE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g8S-Z7-fzq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -669,24 +784,22 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                     <view key="view" contentMode="scaleToFill" id="knF-Pr-T6L">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="Tmg-fi-7OF"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Mg1-m1-Lhy">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="U2F-xS-Kgn">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Kro-rt-ypb">
-                                <rect key="frame" x="253.33333333333334" y="5" width="120.66666666666666" height="34.333333333333336"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bsn-8h-DKt">
+                                <rect key="frame" x="268" y="49" width="106" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Watch Video"/>
                                 <connections>
-                                    <action selector="videoTapped:" destination="dwj-oI-4ac" eventType="touchUpInside" id="EbG-uw-PL8"/>
+                                    <action selector="videoTapped:" destination="dwj-oI-4ac" eventType="touchUpInside" id="HYk-zi-unn"/>
                                 </connections>
                             </button>
-                        </barButtonItem>
-                    </navigationItem>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Tmg-fi-7OF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
                     <connections>
-                        <outlet property="watchVideo" destination="Kro-rt-ypb" id="Bhj-ld-EJj"/>
+                        <outlet property="watchVideo" destination="Bsn-8h-DKt" id="rOp-aZ-f5z"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y08-Qt-v8w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -704,20 +817,20 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="7wv-Fe-9p4">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="naf-IR-ZHv">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="dUp-ZR-BRO">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="gzg-fH-F7o">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="2ds-hS-fXU">
                                 <rect key="frame" x="253.33333333333334" y="5" width="120.66666666666666" height="34.333333333333336"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Watch Video"/>
                                 <connections>
-                                    <action selector="videoTapped:" destination="zRv-vV-ogy" eventType="touchUpInside" id="GWb-I1-qJ1"/>
+                                    <action selector="videoTapped:" destination="zRv-vV-ogy" eventType="touchUpInside" id="N96-lc-7mY"/>
                                 </connections>
                             </button>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="watchVideo" destination="dUp-ZR-BRO" id="5Sf-MI-Qcb"/>
+                        <outlet property="watchVideo" destination="2ds-hS-fXU" id="kzL-r2-mK2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BGk-3p-Us6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -732,13 +845,6 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Treatments" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C9K-dC-Y5C">
-                                <rect key="frame" x="69" y="88" width="253" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Cb-X9-QuT">
                                 <rect key="frame" x="16" y="176" width="358" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -834,6 +940,13 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                                     <segue destination="dwj-oI-4ac" kind="show" id="Bth-1d-c8E"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Treatments" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C9K-dC-Y5C">
+                                <rect key="frame" x="69" y="88" width="253" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zjz-PS-K1X"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -852,6 +965,10 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="RZe-Te-7sL">
+                                <rect key="frame" x="0.0" y="-28" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Learn About ADHD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="78V-wZ-SR4">
                                 <rect key="frame" x="69" y="88" width="253" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -942,11 +1059,15 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="D7c-ko-K7P">
+                                <rect key="frame" x="0.0" y="-28" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose your Experience" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FfJ-L5-Qhc">
                                 <rect key="frame" x="84" y="78" width="228" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" systemColor="linkColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1d-ev-OP6">
@@ -967,6 +1088,9 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                                 <buttonConfiguration key="configuration" style="plain" title="Browse Study Techniques">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="tEB-VH-2p7" kind="show" id="VGK-2n-2fR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NH3-Pt-4YH">
                                 <rect key="frame" x="119" y="216" width="154" height="44"/>
@@ -1004,7 +1128,7 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                                     <segue destination="Wgc-u3-md1" kind="show" id="eXX-Ch-LS6"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="STEM" translatesAutoresizingMaskIntoConstraints="NO" id="bpC-IE-w4I">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow.down" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bpC-IE-w4I">
                                 <rect key="frame" x="38" y="417" width="317" height="301"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1075,6 +1199,10 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="0by-Hv-f77">
+                                <rect key="frame" x="0.0" y="-28" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pqp-M7-f8e">
                                 <rect key="frame" x="134" y="88" width="122" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1083,7 +1211,7 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Dark Mode" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PaC-aN-KfI">
-                                <rect key="frame" x="16" y="173" width="317" height="34"/>
+                                <rect key="frame" x="16" y="507.33333333333331" width="317" height="18.666666666666686"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -1509,6 +1637,10 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="slG-PI-OXC">
+                                <rect key="frame" x="0.0" y="-28" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grade 10 Courses" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rVN-Jd-qPr">
                                 <rect key="frame" x="87" y="97" width="217" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1757,7 +1889,7 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="" backgroundImage="avatar-pfp-1"/>
                                 <connections>
-                                    <action selector="a1:" destination="XWc-Ay-FJM" eventType="touchUpInside" id="u6p-Dr-NUP"/>
+                                    <action selector="a1:" destination="XWc-Ay-FJM" eventType="touchUpInside" id="r7v-Nc-QGY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cqs-KX-B3L">
@@ -1766,25 +1898,25 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="" backgroundImage="rick"/>
                                 <connections>
-                                    <action selector="a3:" destination="XWc-Ay-FJM" eventType="touchUpInside" id="vAU-1g-EjZ"/>
+                                    <action selector="a3:" destination="XWc-Ay-FJM" eventType="touchUpInside" id="5e9-nM-NDi"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GtP-h3-HgM">
                                 <rect key="frame" x="44" y="502" width="100" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="" backgroundImage="Wolf"/>
+                                <state key="normal" title="" backgroundImage="wolf"/>
                                 <connections>
-                                    <action selector="a2:" destination="XWc-Ay-FJM" eventType="touchUpInside" id="mMq-q5-Gp9"/>
+                                    <action selector="a2:" destination="XWc-Ay-FJM" eventType="touchUpInside" id="ba9-nG-qEe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITs-wC-gaO">
                                 <rect key="frame" x="243" y="501" width="98" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="" backgroundImage="Pain"/>
+                                <state key="normal" title="" backgroundImage="pain"/>
                                 <connections>
-                                    <action selector="a4:" destination="XWc-Ay-FJM" eventType="touchUpInside" id="7NN-mU-cBk"/>
+                                    <action selector="a4:" destination="XWc-Ay-FJM" eventType="touchUpInside" id="wkj-zv-3K3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNX-hh-FOd">
@@ -1811,21 +1943,21 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                     </view>
                     <navigationItem key="navigationItem" id="ssz-aT-Mv6"/>
                     <connections>
-                        <outlet property="avatar1" destination="CwF-Hi-r8B" id="IR5-Bn-MPu"/>
-                        <outlet property="avatar2" destination="GtP-h3-HgM" id="OWV-wI-b9x"/>
-                        <outlet property="avatar3" destination="Cqs-KX-B3L" id="9aT-cc-qXI"/>
-                        <outlet property="avatar4" destination="ITs-wC-gaO" id="WxJ-U3-DLR"/>
-                        <outlet property="profile" destination="aNX-hh-FOd" id="t5W-g7-jsk"/>
+                        <outlet property="avatar1" destination="CwF-Hi-r8B" id="9GP-W9-k7O"/>
+                        <outlet property="avatar2" destination="GtP-h3-HgM" id="i6J-Nn-hB8"/>
+                        <outlet property="avatar3" destination="Cqs-KX-B3L" id="wrT-kv-daD"/>
+                        <outlet property="avatar4" destination="ITs-wC-gaO" id="111-Fz-Juv"/>
+                        <outlet property="profile" destination="aNX-hh-FOd" id="v3E-KT-jTI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HaW-ds-QbJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2037" y="-1253"/>
         </scene>
-        <!--Behavioral Treatment-->
+        <!--Behavioral Therapy-->
         <scene sceneID="71d-fh-dHZ">
             <objects>
-                <viewController id="EBe-W5-DA6" customClass="BehavioralTreatment" customModule="Capstone2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="EBe-W5-DA6" customClass="BehavioralTherapy" customModule="Capstone2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FyO-OQ-hqx">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1833,23 +1965,20 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="mMY-vb-l5f">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="Y91-dF-hjD">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="E5A-ZQ-47T">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="4QL-2k-KP6">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="0Dd-Gt-mnQ">
                                 <rect key="frame" x="253.33333333333334" y="5" width="120.66666666666666" height="34.333333333333336"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Watch Video"/>
                                 <connections>
-                                    <action selector="videoTapped:" destination="EBe-W5-DA6" eventType="touchUpInside" id="vCS-zP-Vy0"/>
+                                    <action selector="videoTapped:" destination="EBe-W5-DA6" eventType="touchUpInside" id="hqS-Y6-QFz"/>
                                 </connections>
                             </button>
-                            <connections>
-                                <action selector="videoTapped:" destination="EBe-W5-DA6" id="3oG-WO-UX7"/>
-                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="watchVideo" destination="E5A-ZQ-47T" id="nIH-XP-rkh"/>
+                        <outlet property="watchVideo" destination="0Dd-Gt-mnQ" id="4fT-dF-HtX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8it-OC-vNn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1876,7 +2005,7 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Dd9-Ig-M9E"/>
+        <segue reference="oGv-EM-avA"/>
         <segue reference="32v-4z-cVZ"/>
         <segue reference="y0X-hn-3Fk"/>
     </inferredMetricsTieBreakers>
@@ -1884,18 +2013,19 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
         <image name="622794-ADHD-by-the-Numbers-body-1296 × 1575_Image_1-1" width="1155" height="1403"/>
         <image name="ADHD-Infographic-875x1024" width="875" height="1024"/>
         <image name="Image" width="640" height="640"/>
-        <image name="Pain" width="225" height="400"/>
-        <image name="STEM" width="800" height="800"/>
-        <image name="Screen Shot 2022-03-01 at 9.06.44 AM" width="1304" height="1324"/>
         <image name="What-is-ADHD" width="1685" height="1316"/>
-        <image name="Wolf" width="236" height="236"/>
+        <image name="arrow.down" catalog="system" width="120" height="128"/>
         <image name="avatar-pfp-1" width="786" height="746"/>
         <image name="gear" catalog="system" width="128" height="119"/>
         <image name="istockphoto-1307387607-1024x1024" width="1024" height="1024"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="office-hours" width="275" height="183"/>
-        <image name="rick" width="225" height="225"/>
+        <image name="pain" width="1920" height="1200"/>
+        <image name="person.3.sequence" catalog="system" width="128" height="59"/>
+        <image name="rick" width="1280" height="2120"/>
+        <image name="space" width="177" height="284"/>
         <image name="star.circle" catalog="system" width="128" height="121"/>
+        <image name="wolf" width="236" height="236"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		280F39922805B4E600F15ACA /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280F39912805B4E600F15ACA /* ForgotPasswordViewController.swift */; };
+		282C0131282D4C82000DFF89 /* familyTherapy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282C0130282D4C82000DFF89 /* familyTherapy.swift */; };
 		283591E12825648D002C8FF9 /* medications:stimulants.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 283591DD28256487002C8FF9 /* medications:stimulants.mp4 */; };
-		283591E22825648D002C8FF9 /* adhd.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 283591DE2825648A002C8FF9 /* adhd.mp4 */; };
 		283591E32825648D002C8FF9 /* FamilyTherapy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 283591DF2825648B002C8FF9 /* FamilyTherapy.mp4 */; };
 		283591E42825648D002C8FF9 /* Psychotherapy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 283591E02825648D002C8FF9 /* Psychotherapy.mp4 */; };
 		283591E6282565A1002C8FF9 /* socialSkillsTraining.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 283591E5282565A1002C8FF9 /* socialSkillsTraining.mp4 */; };
+		284146FC282D44AA00267A57 /* adhd.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 284146FB282D44AA00267A57 /* adhd.mp4 */; };
 		28A55120282196270080B790 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 28A5511F282196270080B790 /* FirebaseAuth */; };
-		28EE182B282A9F9000658237 /* Videos in Resources */ = {isa = PBXBuildFile; fileRef = 28EE182A282A9F9000658237 /* Videos */; };
+		28CCACE8282D4D0400826A40 /* BehavioralTherapy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCACE7282D4D0400826A40 /* BehavioralTherapy.swift */; };
+		28CCACEA282D4D4100826A40 /* medications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCACE9282D4D4100826A40 /* medications.swift */; };
+		28CCACEC282D4DAF00826A40 /* Psychotherapy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCACEB282D4DAF00826A40 /* Psychotherapy.swift */; };
+		28CCACEE282D4DE900826A40 /* SocialSkillsTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCACED282D4DE900826A40 /* SocialSkillsTraining.swift */; };
 		5BE5897527FF25D000A419A9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BE5897427FF25D000A419A9 /* GoogleService-Info.plist */; };
 		5D1A79772805AF7F000D4D09 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A79762805AF7F000D4D09 /* HomePageViewController.swift */; };
 		5D5040C02807009700149E2C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5040BF2807009700149E2C /* ProfileViewController.swift */; };
@@ -33,12 +37,16 @@
 
 /* Begin PBXFileReference section */
 		280F39912805B4E600F15ACA /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		282C0130282D4C82000DFF89 /* familyTherapy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = familyTherapy.swift; sourceTree = "<group>"; };
 		283591DD28256487002C8FF9 /* medications:stimulants.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "medications:stimulants.mp4"; sourceTree = "<group>"; };
-		283591DE2825648A002C8FF9 /* adhd.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = adhd.mp4; sourceTree = "<group>"; };
 		283591DF2825648B002C8FF9 /* FamilyTherapy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FamilyTherapy.mp4; sourceTree = "<group>"; };
 		283591E02825648D002C8FF9 /* Psychotherapy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Psychotherapy.mp4; sourceTree = "<group>"; };
 		283591E5282565A1002C8FF9 /* socialSkillsTraining.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = socialSkillsTraining.mp4; sourceTree = "<group>"; };
-		28EE182A282A9F9000658237 /* Videos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Videos; sourceTree = "<group>"; };
+		284146FB282D44AA00267A57 /* adhd.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = adhd.mp4; path = ../../../Downloads/adhd.mp4; sourceTree = "<group>"; };
+		28CCACE7282D4D0400826A40 /* BehavioralTherapy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehavioralTherapy.swift; sourceTree = "<group>"; };
+		28CCACE9282D4D4100826A40 /* medications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medications.swift; sourceTree = "<group>"; };
+		28CCACEB282D4DAF00826A40 /* Psychotherapy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psychotherapy.swift; sourceTree = "<group>"; };
+		28CCACED282D4DE900826A40 /* SocialSkillsTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialSkillsTraining.swift; sourceTree = "<group>"; };
 		5BE5897427FF25D000A419A9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5D1A79762805AF7F000D4D09 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		5D5040BF2807009700149E2C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -96,15 +104,19 @@
 		5DCCD5EE27FF17C700AF2A56 /* Capstone2 */ = {
 			isa = PBXGroup;
 			children = (
-				283591DE2825648A002C8FF9 /* adhd.mp4 */,
+				284146FB282D44AA00267A57 /* adhd.mp4 */,
 				283591DF2825648B002C8FF9 /* FamilyTherapy.mp4 */,
 				283591DD28256487002C8FF9 /* medications:stimulants.mp4 */,
-				283591E5282565A1002C8FF9 /* socialSkillsTraining.mp4 */,
 				283591E02825648D002C8FF9 /* Psychotherapy.mp4 */,
+				283591E5282565A1002C8FF9 /* socialSkillsTraining.mp4 */,
 				5DCCD5EF27FF17C700AF2A56 /* AppDelegate.swift */,
 				5DCCD60C27FF180E00AF2A56 /* ViewController.swift */,
 				5DCCD60327FF17F300AF2A56 /* SceneDelegate.swift */,
-				28EE182A282A9F9000658237 /* Videos */,
+				28CCACE7282D4D0400826A40 /* BehavioralTherapy.swift */,
+				28CCACE9282D4D4100826A40 /* medications.swift */,
+				282C0130282D4C82000DFF89 /* familyTherapy.swift */,
+				28CCACEB282D4DAF00826A40 /* Psychotherapy.swift */,
+				28CCACED282D4DE900826A40 /* SocialSkillsTraining.swift */,
 				5DCCD60B27FF180E00AF2A56 /* signUpViewController.swift */,
 				5DCCD60527FF17F300AF2A56 /* LogInViewController.swift */,
 				5DCCD60627FF17F300AF2A56 /* HomeViewController.swift */,
@@ -186,15 +198,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28EE182B282A9F9000658237 /* Videos in Resources */,
 				283591E32825648D002C8FF9 /* FamilyTherapy.mp4 in Resources */,
 				283591E6282565A1002C8FF9 /* socialSkillsTraining.mp4 in Resources */,
 				5DCCD5FC27FF17C800AF2A56 /* LaunchScreen.storyboard in Resources */,
 				5DCCD61227FF186100AF2A56 /* Assets.xcassets in Resources */,
 				283591E42825648D002C8FF9 /* Psychotherapy.mp4 in Resources */,
 				283591E12825648D002C8FF9 /* medications:stimulants.mp4 in Resources */,
+				284146FC282D44AA00267A57 /* adhd.mp4 in Resources */,
 				5DCCD5F727FF17C700AF2A56 /* Main.storyboard in Resources */,
-				283591E22825648D002C8FF9 /* adhd.mp4 in Resources */,
 				5BE5897527FF25D000A419A9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,15 +217,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28CCACE8282D4D0400826A40 /* BehavioralTherapy.swift in Sources */,
 				5DCCD5F027FF17C700AF2A56 /* AppDelegate.swift in Sources */,
 				5DCCD60E27FF180F00AF2A56 /* signUpViewController.swift in Sources */,
 				5D5040C02807009700149E2C /* ProfileViewController.swift in Sources */,
 				5D1A79772805AF7F000D4D09 /* HomePageViewController.swift in Sources */,
 				5DCCD60F27FF180F00AF2A56 /* ViewController.swift in Sources */,
+				282C0131282D4C82000DFF89 /* familyTherapy.swift in Sources */,
 				5DCCD60927FF17F300AF2A56 /* LogInViewController.swift in Sources */,
 				5DCCD60827FF17F300AF2A56 /* SettingsViewController.swift in Sources */,
+				28CCACEE282D4DE900826A40 /* SocialSkillsTraining.swift in Sources */,
 				280F39922805B4E600F15ACA /* ForgotPasswordViewController.swift in Sources */,
 				5DCCD60A27FF17F300AF2A56 /* HomeViewController.swift in Sources */,
+				28CCACEA282D4D4100826A40 /* medications.swift in Sources */,
+				28CCACEC282D4DAF00826A40 /* Psychotherapy.swift in Sources */,
 				5DCCD61027FF180F00AF2A56 /* Utilities.swift in Sources */,
 				5DCCD60727FF17F300AF2A56 /* SceneDelegate.swift in Sources */,
 			);

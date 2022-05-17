@@ -1,16 +1,16 @@
 //
-//  SocialSkillsTraining.swift
+//  BehavioralTherapy.swift
 //  Capstone2
 //
-//  Created by Jeffrey Voltaire on 5/3/22.
+//  Created by Jeffrey Voltaire on 5/12/22.
 //
 
 import AVKit
 import AVFoundation
 import UIKit
 
-class SocialSkillsTraining: UIViewController {
-
+class BehavioralTherapy: UIViewController {
+    
     @IBOutlet weak var watchVideo: UIButton!
     
     override func viewDidLoad() {
@@ -20,12 +20,13 @@ class SocialSkillsTraining: UIViewController {
     }
     
     @IBAction func videoTapped(_ sender: Any) {
-        let player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "socialSkillsTraining", ofType: "mp4")!))
-                    let vc = AVPlayerViewController()
-                    vc.player = player
-                    present(vc, animated: true)
+        let player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "medications:stimulants", ofType: "mp4")!))
+                        let vc = AVPlayerViewController()
+                        vc.player = player
+                        present(vc, animated: true)
     }
     
+
     /*
     // MARK: - Navigation
 

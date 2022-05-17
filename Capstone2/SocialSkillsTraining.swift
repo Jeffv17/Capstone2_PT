@@ -2,7 +2,7 @@
 //  SocialSkillsTraining.swift
 //  Capstone2
 //
-//  Created by Jeffrey Voltaire on 5/3/22.
+//  Created by Jeffrey Voltaire on 5/12/22.
 //
 
 import AVKit
@@ -20,10 +20,10 @@ class SocialSkillsTraining: UIViewController {
     }
     
     @IBAction func videoTapped(_ sender: Any) {
-        let player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "SocialSkillsTraining", ofType: "mp4")!))
-                    let vc = AVPlayerViewController()
-                    vc.player = player
-                    present(vc, animated: true)
+        let player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "socialSkillsTraining", ofType: "mp4")!))
+                        let vc = AVPlayerViewController()
+                        vc.player = player
+                        present(vc, animated: true)
     }
     
     /*

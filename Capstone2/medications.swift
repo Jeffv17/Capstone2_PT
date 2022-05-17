@@ -2,7 +2,7 @@
 //  medications.swift
 //  Capstone2
 //
-//  Created by Jeffrey Voltaire on 4/29/22.
+//  Created by Jeffrey Voltaire on 5/12/22.
 //
 
 import AVKit
@@ -21,11 +21,12 @@ class medications: UIViewController {
     
     @IBAction func videoTapped(_ sender: Any) {
         let player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "medications:stimulants", ofType: "mp4")!))
-                let vc = AVPlayerViewController()
-                vc.player = player
-                present(vc, animated: true)
-    }    
+                        let vc = AVPlayerViewController()
+                        vc.player = player
+                        present(vc, animated: true)
+    }
     
+
     /*
     // MARK: - Navigation
 
