@@ -371,24 +371,12 @@
                                     <constraint firstItem="5Wq-Qt-LMv" firstAttribute="height" secondItem="k2V-Q0-vDP" secondAttribute="height" id="llI-Vc-6o8"/>
                                 </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vga-I4-tcN">
-                                <rect key="frame" x="23" y="224" width="159" height="9"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="9" id="c5i-y2-27t"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Forgot your password?">
-                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleCaption1"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="YrE-ix-Ele" kind="show" id="4pW-JF-1FM"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWT-1y-DRN">
                                 <rect key="frame" x="40" y="253" width="310" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="IKM-92-aKr"/>
                                 </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Login"/>
                                 <connections>
@@ -402,6 +390,20 @@
                                 <color key="textColor" systemColor="systemGray2Color"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vga-I4-tcN">
+                                <rect key="frame" x="23" y="230" width="159" height="9"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="9" id="c5i-y2-27t"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Forgot your password?">
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleCaption1"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="YrE-ix-Ele" kind="show" id="4pW-JF-1FM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5rP-h8-tUL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
