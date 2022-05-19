@@ -233,6 +233,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8d-16-jk2">
                                 <rect key="frame" x="16" y="170" width="358" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="The Feynman Technique">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
@@ -272,6 +273,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhr-Bp-uyc">
                                         <rect key="frame" x="0.0" y="0.0" width="310" height="38.666666666666664"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Login"/>
                                         <connections>
@@ -283,6 +285,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Course Connect!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ldl-5P-hGD">
                                 <rect key="frame" x="12" y="88" width="362" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                 <color key="textColor" systemColor="linkColor"/>
                                 <nil key="highlightedColor"/>
@@ -296,6 +299,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Xb3-fC-C2H"/>
                                 </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Sign Up"/>
                                 <connections>
@@ -584,6 +588,21 @@
                     <view key="view" contentMode="scaleToFill" id="0Ps-ZV-dM6">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0je-DJ-W1w">
+                                <rect key="frame" x="44" y="183" width="306" height="161"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Medication is often the treatment of choice, as it currently is most effective. However, medication has only short-term effects, treatment adherence is often low and most importantly; medication has serious side effects. </string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Adhd-medication-5210476_final_02-a8c934ad963e434d95344a2f88ebb65d" translatesAutoresizingMaskIntoConstraints="NO" id="H3T-vG-YHX">
+                                <rect key="frame" x="16" y="352" width="358" height="264"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="A8N-IG-U5B"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -752,6 +771,10 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="screenshot89" translatesAutoresizingMaskIntoConstraints="NO" id="3Bv-sD-r7q">
+                                <rect key="frame" x="16" y="393" width="358" height="283"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GUN-8p-8JC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -775,7 +798,7 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g8S-Z7-fzq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4374" y="148"/>
+            <point key="canvasLocation" x="4373.8461538461534" y="147.86729857819904"/>
         </scene>
         <!--Family Therapy-->
         <scene sceneID="kwF-wD-xCG">
@@ -794,6 +817,15 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                                     <action selector="videoTapped:" destination="dwj-oI-4ac" eventType="touchUpInside" id="HYk-zi-unn"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Oo0-vh-CqV">
+                                <rect key="frame" x="57" y="132" width="317" height="213"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">ADHD is also treated with a variety of psychosocial and psychoeducational interventions for parents, children, and with multicomponent interventions combined with medication management. However, many patients (10 to 13% of patients) cannot or prefer not to take medication. Family therapy without medication may help to develop structure in the family, help to manage children's behaviour, and may help families cope with distress from the presence of the disorder.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Tmg-fi-7OF"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -804,7 +836,7 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y08-Qt-v8w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4374" y="852"/>
+            <point key="canvasLocation" x="4373.8461538461534" y="851.65876777251185"/>
         </scene>
         <!--Psychotherapy-->
         <scene sceneID="ugm-Zn-haG">
@@ -813,8 +845,35 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                     <view key="view" contentMode="scaleToFill" id="FJ0-6l-mDu">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9gj-nl-5Qv">
+                                <rect key="frame" x="16" y="327" width="358" height="494"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">Although many types of therapies exist, some psychotherapy techniques proven to be effective include:
+
+Cognitive behavioral therapy (CBT), which helps you identify unhealthy, negative beliefs and behaviors and replace them with healthy, positive ones 
+Dialectical behavior therapy, a type of CBT that teaches behavioral skills to help you handle stress, manage your emotions and improve your relationships with others
+Acceptance and commitment therapy, which helps you become aware of and accept your thoughts and feelings and commit to making changes, increasing your ability to cope with and adjust to situations
+Psychodynamic and psychoanalysis therapies, which focus on increasing your awareness of unconscious thoughts and behaviors, developing new insights into your motivations, and resolving conflicts
+Interpersonal psychotherapy, which focuses on addressing problems with your current relationships with other people to improve your interpersonal skills — how you relate to others, such as family, friends and colleagues
+Supportive psychotherapy, which reinforces your ability to cope with stress and difficult situations</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="a1h-W2-LIc">
+                                <rect key="frame" x="36" y="129" width="319" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Psychotherapy is a general term for treating mental health problems by talking with a psychiatrist, psychologist or other mental health provider. During psychotherapy, you learn about your condition and your moods, feelings, thoughts and behaviors. Psychotherapy helps you learn how to take control of your life and respond to challenging situations with healthy coping skills.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ioS-bC-IgQ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="7wv-Fe-9p4">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="gzg-fH-F7o">
@@ -835,7 +894,7 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BGk-3p-Us6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4374" y="-540"/>
+            <point key="canvasLocation" x="4373.8461538461534" y="-540.28436018957348"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="AFI-1n-3HF">
@@ -958,6 +1017,41 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
             <point key="canvasLocation" x="2804.6153846153843" y="-1253.3175355450237"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="WUl-Kk-xXJ">
+            <objects>
+                <viewController id="OZX-OX-iXc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BNt-fh-o5S">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="g4e-CH-905">
+                                <rect key="frame" x="29" y="152" width="345" height="342"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">1. Eliminate distractions. 
+2. Reduce multitasking. 
+3. Practice mindfulness and meditation. 
+4. Get more sleep. 
+5. Choose to focus on the moment. 
+6. Take a short break. 
+7. Connect with nature.
+8. Train your brain.
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wvl-A5-djZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="TWY-yg-6xO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="19V-Re-K7M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1336.9230769230769" y="2389.336492890995"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="the-hA-G7z">
             <objects>
                 <viewController id="pf2-6H-yVR" sceneMemberID="viewController">
@@ -999,36 +1093,26 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dj7-JH-UYT">
-                                <rect key="frame" x="16" y="420" width="358" height="41"/>
+                                <rect key="frame" x="16" y="341" width="358" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Study Techniques">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                 </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uej-Mz-YP4">
-                                <rect key="frame" x="16" y="351" width="358" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Doctors and Departments">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
-                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="yas-Nm-XUI" kind="show" id="WY4-SK-9uL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zN-Gb-ax1">
-                                <rect key="frame" x="16" y="491" width="358" height="43"/>
+                                <rect key="frame" x="16" y="401" width="358" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Stress Tools">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                 </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EzM-9x-Zy5">
-                                <rect key="frame" x="16" y="561" width="358" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Ways to improve your focus space">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
-                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="4XT-8i-zpC" kind="show" id="Glj-zx-0Zv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eay-DD-gCe">
                                 <rect key="frame" x="16" y="149" width="358" height="41"/>
@@ -1041,6 +1125,17 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                                     <segue destination="Hbb-ob-Z7L" kind="show" id="vry-Kr-GFW"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EzM-9x-Zy5">
+                                <rect key="frame" x="16" y="464" width="358" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Ways to improve your focus space">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="OZX-OX-iXc" kind="show" id="Sf3-bn-x4i"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ce0-j4-8GB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1050,6 +1145,84 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ScD-Qw-KP9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2037" y="2246"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1Mo-1o-rtK">
+            <objects>
+                <viewController id="yas-Nm-XUI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hzR-FW-vHB">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6Qm-wx-rau">
+                                <rect key="frame" x="46" y="137" width="299" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">They should study for long periods of time, rereading texts, studying a single subject for a long period of time and repeating phrases over and over to memorize them, reviewing one topic repeatedly before moving onto another topic, and highlighting important information </string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Vz-kp-Afx">
+                                <rect key="frame" x="54" y="326" width="282" height="387"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">One example of an effective study technique used among students with ADHD is napping between study sessions. This can be proven to be effective, as a study shows that “students remember more when they take breaks between study sessions instead of studying straight through for an extended period”(Ann Dolin., 2021). 
+	Having to mix up your study environment can help increase recall performances. Being able to find the right spot to study is important. Once a person gets too comfortable in their environment, it’ll be time to find a new spot for yourself.  Research shows “A change in scenery can improve both your memory and concentration levels.”(USAHS, 2020) 
+</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8Dh-oS-W5i"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yqF-xl-R3J"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QYn-Wu-CmW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2943.0769230769229" y="2100"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="02c-Jy-xuX">
+            <objects>
+                <viewController id="4XT-8i-zpC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZN3-80-4v2">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ScO-Jb-vfO">
+                                <rect key="frame" x="48" y="88" width="294" height="721"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">1. Kneaded Erasers
+A kneaded eraser is a multifunctional fidget. Kneaded erasers resemble Play-Doh or putty, and they can erase pencil marks on paper. Kneadable erasers are a good choice for a fidget because they can be endlessly kneaded by a child's hands and are also a useful school supply.
+
+2. Fidgeting Finger Springs
+Rubbery finger springs are ideal for classroom fidgeting. The soft, flexible strings can be pulled back and forth and slipped over children's fingers, and they are quiet and unobtrusive, so they won't detract from the classroom environment.
+
+3. Sand-Filled Stress Balls
+Often used as a stress reliever for adults, sand-filled stress balls are a great fidget object because they help release tension and boost focus. Made of tough balloons filled with sand, they are small enough to be kept in a desk.
+
+4. Chair Rubber Bands
+Sometimes, a fidget that engages your child's hands is too distracting. The rubber band allows him to fidget with his feet, kicking or bouncing them off the band under the table. Bouncy Bands has developed bands just for this purpose.
+
+5. Markers and Paper
+While doodling used to be discouraged during class, it has proven to be an excellent fidget activity for ADHD students. They can doodle while they listen to their teacher, and they'll have a portfolio of their drawings at the end of the school year.</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fbF-RM-JEt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eCx-V0-n5V"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jVK-jy-UrX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2903.0769230769229" y="2781.7535545023698"/>
         </scene>
         <!--HOME-->
         <scene sceneID="NZh-9n-5jU">
@@ -1066,6 +1239,7 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose your Experience" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FfJ-L5-Qhc">
                                 <rect key="frame" x="84" y="78" width="228" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" systemColor="linkColor"/>
                                 <nil key="highlightedColor"/>
@@ -1073,6 +1247,7 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1d-ev-OP6">
                                 <rect key="frame" x="118" y="147" width="154" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Grade 9 👶🏾 ">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
@@ -1084,6 +1259,7 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odZ-Qa-xBM">
                                 <rect key="frame" x="49" y="726" width="293" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Browse Study Techniques">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
@@ -1095,7 +1271,7 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NH3-Pt-4YH">
                                 <rect key="frame" x="119" y="216" width="154" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="tintColor"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Grade 10👩🏾‍🏫">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
@@ -1107,7 +1283,7 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMk-OB-QYJ">
                                 <rect key="frame" x="119" y="347" width="154" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="linkColor"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Grade 12🎓">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
@@ -1119,7 +1295,7 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCP-3I-v98">
                                 <rect key="frame" x="119" y="279" width="154" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="linkColor"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Grade 11👨🏾‍💻">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
@@ -1128,14 +1304,14 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                                     <segue destination="Wgc-u3-md1" kind="show" id="eXX-Ch-LS6"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow.down" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bpC-IE-w4I">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="book.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bpC-IE-w4I">
                                 <rect key="frame" x="38" y="417" width="317" height="301"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKc-H3-xA6">
                                 <rect key="frame" x="83" y="769" width="224" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="linkColor"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="LEARN ABOUT ADHD">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="25"/>
@@ -1914,7 +2090,7 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                                 <rect key="frame" x="243" y="501" width="98" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="" backgroundImage="pain"/>
+                                <state key="normal" title="" backgroundImage="pain.jpg"/>
                                 <connections>
                                     <action selector="a4:" destination="XWc-Ay-FJM" eventType="touchUpInside" id="wkj-zv-3K3"/>
                                 </connections>
@@ -1923,7 +2099,7 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                                 <rect key="frame" x="322" y="78" width="52" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="" backgroundImage="istockphoto-1307387607-1024x1024"/>
+                                <state key="normal" title="" backgroundImage="rick"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VlH-3j-hAp">
                                 <rect key="frame" x="86" y="652" width="87" height="31"/>
@@ -1961,6 +2137,17 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                     <view key="view" contentMode="scaleToFill" id="FyO-OQ-hqx">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="n4W-S5-fKS">
+                                <rect key="frame" x="62" y="135" width="267" height="232"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">What is behavioral therapy, and how can a parent use it on its own or as a component of combined treatment? While medication works on a neurological level to regulate the brain (kids with ADHD often have irregular brain-wave levels), behavioral therapy addresses specific problem behaviors by structuring time at home, establishing predictability and routines, and increasing positive attention.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="rUi-vV-TQ1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -2012,17 +2199,18 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
     <resources>
         <image name="622794-ADHD-by-the-Numbers-body-1296 × 1575_Image_1-1" width="1155" height="1403"/>
         <image name="ADHD-Infographic-875x1024" width="875" height="1024"/>
+        <image name="Adhd-medication-5210476_final_02-a8c934ad963e434d95344a2f88ebb65d" width="1500" height="1000"/>
         <image name="Image" width="640" height="640"/>
         <image name="What-is-ADHD" width="1685" height="1316"/>
-        <image name="arrow.down" catalog="system" width="120" height="128"/>
         <image name="avatar-pfp-1" width="786" height="746"/>
+        <image name="book.fill" catalog="system" width="128" height="95"/>
         <image name="gear" catalog="system" width="128" height="119"/>
-        <image name="istockphoto-1307387607-1024x1024" width="1024" height="1024"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="office-hours" width="275" height="183"/>
-        <image name="pain" width="1920" height="1200"/>
+        <image name="pain.jpg" width="1920" height="1200"/>
         <image name="person.3.sequence" catalog="system" width="128" height="59"/>
         <image name="rick" width="1280" height="2120"/>
+        <image name="screenshot89" width="545" height="563"/>
         <image name="space" width="177" height="284"/>
         <image name="star.circle" catalog="system" width="128" height="121"/>
         <image name="wolf" width="236" height="236"/>
@@ -2037,9 +2225,6 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
         </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="tintColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

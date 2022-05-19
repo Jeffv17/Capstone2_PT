@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Adhd-medication-5210476_final_02-a8c934ad963e434d95344a2f88ebb65d.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
