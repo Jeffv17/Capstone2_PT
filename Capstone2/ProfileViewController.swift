@@ -26,14 +26,14 @@ class ProfileViewController: UIViewController {
         
     }
     @IBAction func a2(_ sender: Any) {
-        profile.setBackgroundImage(UIImage(named: "Wolf"), for: .normal)
+        profile.setBackgroundImage(UIImage(named: "wolf"), for: .normal)
         
     }
     @IBAction func a3(_ sender: Any) {
         profile.setBackgroundImage(UIImage(named: "rick"), for: .normal)
     }
     @IBAction func a4(_ sender: Any) {
-        profile.setBackgroundImage(UIImage(named: "Pain"), for: .normal)
+        profile.setBackgroundImage(UIImage(named: "pain"), for: .normal)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
