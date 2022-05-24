@@ -205,6 +205,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="SQ3R Method">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Ftx-TC-pzu" kind="show" id="Iih-Mf-TyR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ns8-jg-CC6">
                                 <rect key="frame" x="16" y="386" width="358" height="31"/>
@@ -213,6 +216,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Retrieval Practice">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="3e4-XT-O0X" kind="show" id="OF5-V6-CXb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sw2-Hf-rt0">
                                 <rect key="frame" x="16" y="245" width="358" height="31"/>
@@ -221,6 +227,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Spaced Practice">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="xzl-AK-HPT" kind="show" id="aLj-ft-e3g"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iz5-ap-RPM">
                                 <rect key="frame" x="16" y="455" width="358" height="31"/>
@@ -229,6 +238,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="PQ4R Method">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="l5f-be-244" kind="show" id="AQf-Jh-LZC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8d-16-jk2">
                                 <rect key="frame" x="16" y="170" width="358" height="42"/>
@@ -238,6 +250,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="The Feynman Technique">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Jci-pj-PK3" kind="show" id="4Fv-Ba-D84"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QT6-MF-LZB">
                                 <rect key="frame" x="16" y="520" width="358" height="42"/>
@@ -246,6 +261,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Leitner System">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Fsm-zg-e6q" kind="show" id="esl-YI-AGO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jLb-FC-pv8"/>
@@ -749,7 +767,7 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iQj-dw-dUV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3569" y="-414"/>
+            <point key="canvasLocation" x="3572" y="-414"/>
         </scene>
         <!--Social Skills Training-->
         <scene sceneID="8os-1f-R4m">
@@ -852,14 +870,14 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                                 <rect key="frame" x="16" y="327" width="358" height="494"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">Although many types of therapies exist, some psychotherapy techniques proven to be effective include:
+                                <string key="text">Although many types of therapies exist, some psychotherapy techniques proven to be effective include:
 
 Cognitive behavioral therapy (CBT), which helps you identify unhealthy, negative beliefs and behaviors and replace them with healthy, positive ones 
 Dialectical behavior therapy, a type of CBT that teaches behavioral skills to help you handle stress, manage your emotions and improve your relationships with others
 Acceptance and commitment therapy, which helps you become aware of and accept your thoughts and feelings and commit to making changes, increasing your ability to cope with and adjust to situations
 Psychodynamic and psychoanalysis therapies, which focus on increasing your awareness of unconscious thoughts and behaviors, developing new insights into your motivations, and resolving conflicts
 Interpersonal psychotherapy, which focuses on addressing problems with your current relationships with other people to improve your interpersonal skills — how you relate to others, such as family, friends and colleagues
-Supportive psychotherapy, which reinforces your ability to cope with stress and difficult situations</mutableString>
+Supportive psychotherapy, which reinforces your ability to cope with stress and difficult situations</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1069,7 +1087,7 @@ Supportive psychotherapy, which reinforces your ability to cope with stress and 
                                 <rect key="frame" x="69" y="88" width="253" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Beo-ic-5WN">
@@ -1094,19 +1112,8 @@ Supportive psychotherapy, which reinforces your ability to cope with stress and 
                                     <segue destination="PVP-f1-4td" kind="show" id="Za4-q0-F8a"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dj7-JH-UYT">
-                                <rect key="frame" x="16" y="341" width="358" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Study Techniques">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="yas-Nm-XUI" kind="show" id="WY4-SK-9uL"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zN-Gb-ax1">
-                                <rect key="frame" x="16" y="401" width="358" height="43"/>
+                                <rect key="frame" x="16" y="348" width="358" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Stress Tools">
@@ -1128,7 +1135,7 @@ Supportive psychotherapy, which reinforces your ability to cope with stress and 
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EzM-9x-Zy5">
-                                <rect key="frame" x="16" y="464" width="358" height="43"/>
+                                <rect key="frame" x="16" y="416" width="358" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Ways to improve your focus space">
@@ -1149,44 +1156,6 @@ Supportive psychotherapy, which reinforces your ability to cope with stress and 
             <point key="canvasLocation" x="2037" y="2246"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="1Mo-1o-rtK">
-            <objects>
-                <viewController id="yas-Nm-XUI" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hzR-FW-vHB">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6Qm-wx-rau">
-                                <rect key="frame" x="46" y="137" width="299" height="137"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">They should study for long periods of time, rereading texts, studying a single subject for a long period of time and repeating phrases over and over to memorize them, reviewing one topic repeatedly before moving onto another topic, and highlighting important information </string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Vz-kp-Afx">
-                                <rect key="frame" x="54" y="326" width="282" height="387"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">One example of an effective study technique used among students with ADHD is napping between study sessions. This can be proven to be effective, as a study shows that “students remember more when they take breaks between study sessions instead of studying straight through for an extended period”(Ann Dolin., 2021). 
-	Having to mix up your study environment can help increase recall performances. Being able to find the right spot to study is important. Once a person gets too comfortable in their environment, it’ll be time to find a new spot for yourself.  Research shows “A change in scenery can improve both your memory and concentration levels.”(USAHS, 2020) 
-</mutableString>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="8Dh-oS-W5i"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="yqF-xl-R3J"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QYn-Wu-CmW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2943.0769230769229" y="2100"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="02c-Jy-xuX">
             <objects>
                 <viewController id="4XT-8i-zpC" sceneMemberID="viewController">
@@ -1198,7 +1167,7 @@ Supportive psychotherapy, which reinforces your ability to cope with stress and 
                                 <rect key="frame" x="48" y="88" width="294" height="721"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">1. Kneaded Erasers
+                                <string key="text">1. Kneaded Erasers
 A kneaded eraser is a multifunctional fidget. Kneaded erasers resemble Play-Doh or putty, and they can erase pencil marks on paper. Kneadable erasers are a good choice for a fidget because they can be endlessly kneaded by a child's hands and are also a useful school supply.
 
 2. Fidgeting Finger Springs
@@ -1211,7 +1180,7 @@ Often used as a stress reliever for adults, sand-filled stress balls are a great
 Sometimes, a fidget that engages your child's hands is too distracting. The rubber band allows him to fidget with his feet, kicking or bouncing them off the band under the table. Bouncy Bands has developed bands just for this purpose.
 
 5. Markers and Paper
-While doodling used to be discouraged during class, it has proven to be an excellent fidget activity for ADHD students. They can doodle while they listen to their teacher, and they'll have a portfolio of their drawings at the end of the school year.</mutableString>
+While doodling used to be discouraged during class, it has proven to be an excellent fidget activity for ADHD students. They can doodle while they listen to their teacher, and they'll have a portfolio of their drawings at the end of the school year.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1238,16 +1207,8 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                 <rect key="frame" x="0.0" y="-28" width="390" height="872"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose your Experience" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FfJ-L5-Qhc">
-                                <rect key="frame" x="84" y="78" width="228" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <color key="textColor" systemColor="linkColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1d-ev-OP6">
-                                <rect key="frame" x="118" y="147" width="154" height="53"/>
+                                <rect key="frame" x="119" y="164" width="154" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -1271,7 +1232,7 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NH3-Pt-4YH">
-                                <rect key="frame" x="119" y="216" width="154" height="44"/>
+                                <rect key="frame" x="119" y="233" width="154" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -1283,7 +1244,7 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMk-OB-QYJ">
-                                <rect key="frame" x="119" y="347" width="154" height="44"/>
+                                <rect key="frame" x="119" y="363" width="154" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -1295,7 +1256,7 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCP-3I-v98">
-                                <rect key="frame" x="119" y="279" width="154" height="44"/>
+                                <rect key="frame" x="119" y="299" width="154" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -1323,7 +1284,7 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZAp-8l-NUv">
-                                <rect key="frame" x="178" y="110" width="35" height="31"/>
+                                <rect key="frame" x="178" y="125" width="35" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
@@ -1333,6 +1294,14 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                     <segue destination="okA-Wl-pk0" kind="show" id="Th7-sw-ipI"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose your Experience" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FfJ-L5-Qhc">
+                                <rect key="frame" x="83" y="88" width="228" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" systemColor="linkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Dkq-YV-zgq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1388,12 +1357,6 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Dark Mode" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PaC-aN-KfI">
-                                <rect key="frame" x="16" y="507.33333333333331" width="317" height="18.666666666666686"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Rate the App" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qvc-c4-sXd">
                                 <rect key="frame" x="16" y="215" width="317" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1428,7 +1391,7 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                 <rect key="frame" x="31" y="550" width="328" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                <color key="textColor" systemColor="systemGray2Color"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Course Connect 1.5(38509)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FEu-FY-YWZ">
@@ -1445,6 +1408,12 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                     <action selector="switchAction:" destination="NjK-JA-FxG" eventType="valueChanged" id="ogN-XH-u8w"/>
                                 </connections>
                             </switch>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Light Mode" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PaC-aN-KfI">
+                                <rect key="frame" x="16" y="179" width="303" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="05z-Nx-PvX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1464,7 +1433,7 @@ While doodling used to be discouraged during class, it has proven to be an excel
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7qX-Yt-3Hf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1257" y="1552"/>
+            <point key="canvasLocation" x="1256.9230769230769" y="1551.8957345971564"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="wFP-zT-b09">
@@ -1807,6 +1776,68 @@ While doodling used to be discouraged during class, it has proven to be an excel
             </objects>
             <point key="canvasLocation" x="2037" y="160"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="xYm-Ae-Yix">
+            <objects>
+                <viewController id="Jci-pj-PK3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Cr-l7-Dsa">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="z2S-7R-vmI">
+                                <rect key="frame" x="16" y="135" width="358" height="402"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Feynman technique: The Feynman Technique is a method of learning that unleashes your potential and forces you to develop a deep understanding. 
+
+There are four key steps to the Feynman Technique:
+
+1. Choose a concept you want to learn about
+2. Explain it to a 12 year old
+3. Reflect, Refine, and Simplify
+4. Organize and Review</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Vtf-wc-sA5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="YXl-VX-DXk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RHD-jY-4QZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2708" y="1480"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4Q4-KB-w05">
+            <objects>
+                <viewController id="xzl-AK-HPT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3xL-st-U75">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="O9o-Ts-Hxr">
+                                <rect key="frame" x="32" y="215" width="342" height="329"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Spaced Practice: When you space your learning, you take that same amount of study time, and spread it out across a much longer period of time. Doing it this way, that same amount of study time will produce more long-lasting learning. For example, five hours spread out over two weeks is better than the same five hours right before the exam.
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="po1-e0-whm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Zk4-nZ-OEN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I9x-2a-lzC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3412" y="1717"/>
+        </scene>
         <!--Home View Controller-->
         <scene sceneID="YhY-RK-Qt5">
             <objects>
@@ -1823,7 +1854,7 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                 <rect key="frame" x="87" y="97" width="217" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="72W-pS-PhZ">
@@ -1921,6 +1952,55 @@ While doodling used to be discouraged during class, it has proven to be an excel
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mNJ-JE-V5M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2037" y="1552"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hLr-Ul-Lon">
+            <objects>
+                <viewController id="l5f-be-244" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DkY-4h-o18">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pq4r" translatesAutoresizingMaskIntoConstraints="NO" id="MUB-12-8v0">
+                                <rect key="frame" x="16" y="212" width="358" height="421"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="d11-BK-5Ti"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="PmX-ZJ-mBm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HzW-r0-eEJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2707.6923076923076" y="106.63507109004739"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fYb-RI-EB9">
+            <objects>
+                <viewController id="Fsm-zg-e6q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="D6M-jz-HzZ">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8JY-VD-WRD">
+                                <rect key="frame" x="16" y="195" width="358" height="454"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Leitner System: employs the concept of spaced repetition, which is an approach to memorization that uses time intervals. Rather than cramming information into your brain all in one sitting, spaced repetition encourages learners to space out learning over periods of time. Under the Leitner System, learners dedicate different time periods to studying certain flashcards and concepts, based on the learner’s own needs or preferences.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GaT-5T-P9t"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NUi-Qu-zYA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eib-ir-LyS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3361.5384615384614" y="262.32227488151659"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="2Bz-G1-sxy">
@@ -2040,6 +2120,60 @@ While doodling used to be discouraged during class, it has proven to be an excel
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qy3-h9-PnA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2037" y="835"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sEm-Tm-zfw">
+            <objects>
+                <viewController id="Ftx-TC-pzu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zi4-mv-GoV">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sqr31" translatesAutoresizingMaskIntoConstraints="NO" id="UcR-82-xYW">
+                                <rect key="frame" x="16" y="157" width="358" height="447"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="EfN-wt-Oez"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OeF-z8-F1p"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8HC-Mr-cl0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2691" y="786"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dhB-6T-bgp">
+            <objects>
+                <viewController id="3e4-XT-O0X" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="87D-Yy-kkd">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tLC-Gt-4Ck">
+                                <rect key="frame" x="27" y="154" width="347" height="454"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Retrieval Practice: helps students “use it or lose it,” just like practicing a language or an instrument
+
+With retrieval practice, struggling is a good thing for learning (what scientists call a “desirable difficulty”)
+
+ improves students’ understanding of their own learning process (what scientists call “metacognition”)
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uyb-YC-tWw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xan-d7-RRP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r6m-yL-hQ6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3635" y="968"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="Iin-ge-f3W">
@@ -2211,9 +2345,11 @@ While doodling used to be discouraged during class, it has proven to be an excel
         <image name="office-hours" width="275" height="183"/>
         <image name="pain.jpg" width="1920" height="1200"/>
         <image name="person.3.sequence" catalog="system" width="128" height="59"/>
+        <image name="pq4r" width="960" height="720"/>
         <image name="rick" width="1280" height="2120"/>
         <image name="screenshot89" width="545" height="563"/>
         <image name="space" width="177" height="284"/>
+        <image name="sqr31" width="736" height="552"/>
         <image name="star.circle" catalog="system" width="128" height="121"/>
         <image name="wolf" width="236" height="236"/>
         <systemColor name="labelColor">
