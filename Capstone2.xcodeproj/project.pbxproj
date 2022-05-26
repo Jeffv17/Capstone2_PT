@@ -37,7 +37,7 @@
 
 /* Begin PBXFileReference section */
 		280F39912805B4E600F15ACA /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
-		281DAEC0283E5DF9003E2524 /* adhd.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = adhd.mp4; path = ../../../Downloads/adhd.mp4; sourceTree = "<group>"; };
+		281DAEC0283E5DF9003E2524 /* adhd.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = adhd.mp4; sourceTree = "<group>"; };
 		282C0130282D4C82000DFF89 /* familyTherapy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = familyTherapy.swift; sourceTree = "<group>"; };
 		283591DD28256487002C8FF9 /* medications:stimulants.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "medications:stimulants.mp4"; sourceTree = "<group>"; };
 		283591DF2825648B002C8FF9 /* FamilyTherapy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FamilyTherapy.mp4; sourceTree = "<group>"; };

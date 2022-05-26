@@ -23,11 +23,11 @@ class signUpViewController: UIViewController {
         setUpElements()
     }
     func setUpElements() {
-            Utilities.styleTextField(firstNameTextField)
-            Utilities.styleTextField(lastNameTextField)
-            Utilities.styleTextField(emailTextField)
-            Utilities.styleTextField(passwordTextField)
-            Utilities.styleFilledButton(signUpButton)
+      //      Utilities.styleTextField(firstNameTextField)
+           // Utilities.styleTextField(lastNameTextField)
+         //   Utilities.styleTextField(emailTextField)
+           // Utilities.styleTextField(passwordTextField)
+          //  Utilities.styleFilledButton(signUpButton)
     }
     /*
     // MARK: - Navigation

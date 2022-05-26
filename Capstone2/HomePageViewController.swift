@@ -25,7 +25,7 @@ class HomePageViewController: UIViewController {
     @IBAction func signOut(_ sender: Any) {
         
          // 1
-         guard let user = Auth.auth().currentUser else { return }
+        guard Auth.auth().currentUser != nil else { return }
         
            // 4
            do {
