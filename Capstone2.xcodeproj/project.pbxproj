@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		280F39922805B4E600F15ACA /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280F39912805B4E600F15ACA /* ForgotPasswordViewController.swift */; };
+		281DAEC1283E5DF9003E2524 /* adhd.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 281DAEC0283E5DF9003E2524 /* adhd.mp4 */; };
 		282C0131282D4C82000DFF89 /* familyTherapy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282C0130282D4C82000DFF89 /* familyTherapy.swift */; };
 		283591E12825648D002C8FF9 /* medications:stimulants.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 283591DD28256487002C8FF9 /* medications:stimulants.mp4 */; };
 		283591E32825648D002C8FF9 /* FamilyTherapy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 283591DF2825648B002C8FF9 /* FamilyTherapy.mp4 */; };
@@ -19,7 +20,6 @@
 		28CCACEC282D4DAF00826A40 /* Psychotherapy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCACEB282D4DAF00826A40 /* Psychotherapy.swift */; };
 		28CCACEE282D4DE900826A40 /* SocialSkillsTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCACED282D4DE900826A40 /* SocialSkillsTraining.swift */; };
 		5BE5897527FF25D000A419A9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BE5897427FF25D000A419A9 /* GoogleService-Info.plist */; };
-		5D0CDD172836C77000A1EEA6 /* adhd.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CDD162836C76F00A1EEA6 /* adhd.mp4 */; };
 		5D1A79772805AF7F000D4D09 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1A79762805AF7F000D4D09 /* HomePageViewController.swift */; };
 		5D5040C02807009700149E2C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5040BF2807009700149E2C /* ProfileViewController.swift */; };
 		5DCCD5F027FF17C700AF2A56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCCD5EF27FF17C700AF2A56 /* AppDelegate.swift */; };
@@ -37,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		280F39912805B4E600F15ACA /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		281DAEC0283E5DF9003E2524 /* adhd.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = adhd.mp4; path = ../../../Downloads/adhd.mp4; sourceTree = "<group>"; };
 		282C0130282D4C82000DFF89 /* familyTherapy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = familyTherapy.swift; sourceTree = "<group>"; };
 		283591DD28256487002C8FF9 /* medications:stimulants.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "medications:stimulants.mp4"; sourceTree = "<group>"; };
 		283591DF2825648B002C8FF9 /* FamilyTherapy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FamilyTherapy.mp4; sourceTree = "<group>"; };
@@ -47,7 +48,6 @@
 		28CCACEB282D4DAF00826A40 /* Psychotherapy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psychotherapy.swift; sourceTree = "<group>"; };
 		28CCACED282D4DE900826A40 /* SocialSkillsTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialSkillsTraining.swift; sourceTree = "<group>"; };
 		5BE5897427FF25D000A419A9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		5D0CDD162836C76F00A1EEA6 /* adhd.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = adhd.mp4; sourceTree = "<group>"; };
 		5D1A79762805AF7F000D4D09 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		5D5040BF2807009700149E2C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		5DCCD5EC27FF17C700AF2A56 /* Capstone2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capstone2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,7 +104,7 @@
 		5DCCD5EE27FF17C700AF2A56 /* Capstone2 */ = {
 			isa = PBXGroup;
 			children = (
-				5D0CDD162836C76F00A1EEA6 /* adhd.mp4 */,
+				281DAEC0283E5DF9003E2524 /* adhd.mp4 */,
 				283591DF2825648B002C8FF9 /* FamilyTherapy.mp4 */,
 				283591DD28256487002C8FF9 /* medications:stimulants.mp4 */,
 				283591E02825648D002C8FF9 /* Psychotherapy.mp4 */,
@@ -200,12 +200,12 @@
 			files = (
 				283591E32825648D002C8FF9 /* FamilyTherapy.mp4 in Resources */,
 				283591E6282565A1002C8FF9 /* socialSkillsTraining.mp4 in Resources */,
-				5D0CDD172836C77000A1EEA6 /* adhd.mp4 in Resources */,
 				5DCCD5FC27FF17C800AF2A56 /* LaunchScreen.storyboard in Resources */,
 				5DCCD61227FF186100AF2A56 /* Assets.xcassets in Resources */,
 				283591E42825648D002C8FF9 /* Psychotherapy.mp4 in Resources */,
 				283591E12825648D002C8FF9 /* medications:stimulants.mp4 in Resources */,
 				5DCCD5F727FF17C700AF2A56 /* Main.storyboard in Resources */,
+				281DAEC1283E5DF9003E2524 /* adhd.mp4 in Resources */,
 				5BE5897527FF25D000A419A9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

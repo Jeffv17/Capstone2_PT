@@ -96,6 +96,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="qgg-VG-cBm">
+                                <rect key="frame" x="0.0" y="-28" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uh5-R5-UBv">
                                 <rect key="frame" x="16" y="163" width="358" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -191,80 +195,83 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="iga-MU-wwe">
+                                <rect key="frame" x="0.0" y="-28" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Studying Techniques" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p85-uU-cqH">
                                 <rect key="frame" x="44" y="88" width="303" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVR-0I-1ZE">
-                                <rect key="frame" x="16" y="313" width="358" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="SQ3R Method">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="Ftx-TC-pzu" kind="show" id="Iih-Mf-TyR"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ns8-jg-CC6">
-                                <rect key="frame" x="16" y="386" width="358" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Retrieval Practice">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="3e4-XT-O0X" kind="show" id="OF5-V6-CXb"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sw2-Hf-rt0">
-                                <rect key="frame" x="16" y="245" width="358" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Spaced Practice">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="xzl-AK-HPT" kind="show" id="aLj-ft-e3g"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iz5-ap-RPM">
-                                <rect key="frame" x="16" y="455" width="358" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="PQ4R Method">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="l5f-be-244" kind="show" id="AQf-Jh-LZC"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8d-16-jk2">
-                                <rect key="frame" x="16" y="170" width="358" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="The Feynman Technique">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="Jci-pj-PK3" kind="show" id="4Fv-Ba-D84"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QT6-MF-LZB">
-                                <rect key="frame" x="16" y="520" width="358" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Leitner System">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="Fsm-zg-e6q" kind="show" id="esl-YI-AGO"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="83" translatesAutoresizingMaskIntoConstraints="NO" id="f1u-ro-voD">
+                                <rect key="frame" x="62" y="156" width="266.33333333333331" height="665"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVR-0I-1ZE">
+                                        <rect key="frame" x="0.0" y="0.0" width="266.33333333333331" height="41.666666666666664"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="SQ3R Method">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="Ftx-TC-pzu" kind="show" id="Iih-Mf-TyR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ns8-jg-CC6">
+                                        <rect key="frame" x="0.0" y="124.66666666666669" width="266.33333333333331" height="41.666666666666671"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Retrieval Practice">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="3e4-XT-O0X" kind="show" id="OF5-V6-CXb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sw2-Hf-rt0">
+                                        <rect key="frame" x="0.0" y="249.33333333333334" width="266.33333333333331" height="41.666666666666657"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Spaced Practice">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="xzl-AK-HPT" kind="show" id="aLj-ft-e3g"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iz5-ap-RPM">
+                                        <rect key="frame" x="0.0" y="374" width="266.33333333333331" height="41.666666666666686"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="PQ4R Method">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="l5f-be-244" kind="show" id="AQf-Jh-LZC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8d-16-jk2">
+                                        <rect key="frame" x="0.0" y="498.66666666666669" width="266.33333333333331" height="41.666666666666686"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="The Feynman Technique">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="Jci-pj-PK3" kind="show" id="4Fv-Ba-D84"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QT6-MF-LZB">
+                                        <rect key="frame" x="0.0" y="623.33333333333337" width="266.33333333333331" height="41.666666666666629"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Leitner System">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="Fsm-zg-e6q" kind="show" id="esl-YI-AGO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jLb-FC-pv8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -558,6 +565,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="Pfm-Tl-7PN">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About ADHD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UbW-yL-qs3">
                                 <rect key="frame" x="134" y="88" width="123" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -568,18 +579,18 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vWX-ex-Sum">
                                 <rect key="frame" x="16" y="194" width="241" height="261"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">ADHD stands for                      attention deficit                       hyperactivity                          disorder, a complex brain disorder that impacts approximately 11% of children and almost 5% of adults in the U.S. ADHD is a developmental impairment of the brain’s executive functions. People with ADHD have trouble with impulse-control, focusing, and organization.</string>
-                                <color key="textColor" systemColor="labelColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="Hmf-8W-57o">
                                 <rect key="frame" x="189" y="437" width="185" height="324"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">ADHD is one of the most common neurodevelopmental disorders of childhood. It is usually first diagnosed in childhood and often lasts into adulthood. Children with ADHD may have trouble paying attention, controlling impulsive behaviors (may act without thinking about what the result will be), or be overly active.</string>
-                                <color key="textColor" systemColor="labelColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -609,12 +620,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="pbv-tf-haA">
+                                <rect key="frame" x="0.0" y="-28" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0je-DJ-W1w">
                                 <rect key="frame" x="44" y="183" width="306" height="161"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Medication is often the treatment of choice, as it currently is most effective. However, medication has only short-term effects, treatment adherence is often low and most importantly; medication has serious side effects. </string>
-                                <color key="textColor" systemColor="labelColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -661,11 +676,15 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hhp-0U-JTq">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="1500"/>
                                         <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="V4T-jJ-CN7">
+                                                <rect key="frame" x="-7" y="-89" width="404" height="1650"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Symptoms and Causes of ADHD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1p7-WF-sLg">
                                                 <rect key="frame" x="41" y="8" width="309" height="27"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Symptoms:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GcY-Nf-rLH">
@@ -678,23 +697,23 @@
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8i3-Hi-dDU">
                                                 <rect key="frame" x="8" y="94" width="374" height="206"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">The primary features of ADHD include inattention and hyperactive-impulsive behavior. ADHD symptoms start before age 12, and in some children, they're noticeable as early as 3 years of age. ADHD symptoms can be mild, moderate or severe, and they may continue into adulthood.
 
 ADHD occurs more often in males than in females, and behaviors can be different in boys and girls. For example, boys may be more hyperactive and girls may tend to be quietly inattentive.</string>
-                                                <color key="textColor" systemColor="labelColor"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mEp-Q4-U5Z">
                                                 <rect key="frame" x="8" y="308" width="215" height="286"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">Behavioral: aggression, excitability, fidgeting, hyperactivity, impulsivity, irritability, lack of                      restraint, or persistent repetition of words or                actions
 Cognitive: absent-mindedness, difficulty focusing, forgetfulness, problem                                      paying attention, or short attention span
 Mood: anger, anxiety, boredom, excitement, or mood swings
 Also common: depression or learning disability</string>
-                                                <color key="textColor" systemColor="labelColor"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -705,14 +724,14 @@ Also common: depression or learning disability</string>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LQu-mk-ATF">
                                                 <rect key="frame" x="8" y="615" width="364" height="158"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">There are three subtypes of ADHD:
 
 Predominantly inattentive. The majority of symptoms fall under inattention.
 Predominantly hyperactive/impulsive. The majority of symptoms are hyperactive and impulsive.
 Combined. This is a mix of inattentive symptoms and hyperactive/impulsive symptoms.
 </string>
-                                                <color key="textColor" systemColor="labelColor"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -720,17 +739,17 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                                                 <rect key="frame" x="8" y="781" width="60" height="22"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NK5-fo-zbT">
                                                 <rect key="frame" x="8" y="811" width="364" height="108"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">While the exact cause of ADHD is not clear, research efforts continue. Factors that may be involved in the development of ADHD include genetics, the environment or problems with the central nervous system at key moments in development.
 
 </string>
-                                                <color key="textColor" systemColor="labelColor"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -767,7 +786,7 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iQj-dw-dUV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3572" y="-414"/>
+            <point key="canvasLocation" x="3570.7692307692305" y="-414.45497630331749"/>
         </scene>
         <!--Social Skills Training-->
         <scene sceneID="8os-1f-R4m">
@@ -777,17 +796,21 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="RLA-vY-FkQ">
+                                <rect key="frame" x="0.0" y="-28" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vUl-cG-hpV">
                                 <rect key="frame" x="13" y="210" width="364" height="158"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">There are three subtypes of ADHD:
 
 Predominantly inattentive. The majority of symptoms fall under inattention.
 Predominantly hyperactive/impulsive. The majority of symptoms are hyperactive and impulsive.
 Combined. This is a mix of inattentive symptoms and hyperactive/impulsive symptoms.
 </string>
-                                <color key="textColor" systemColor="labelColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -828,6 +851,10 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="F1F-nL-afG">
+                                <rect key="frame" x="0.0" y="-14" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bsn-8h-DKt">
                                 <rect key="frame" x="268" y="49" width="106" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -838,12 +865,12 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Oo0-vh-CqV">
-                                <rect key="frame" x="57" y="132" width="317" height="213"/>
+                                <rect key="frame" x="30" y="174" width="330" height="629"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">ADHD is also treated with a variety of psychosocial and psychoeducational interventions for parents, children, and with multicomponent interventions combined with medication management. However, many patients (10 to 13% of patients) cannot or prefer not to take medication. Family therapy without medication may help to develop structure in the family, help to manage children's behaviour, and may help families cope with distress from the presence of the disorder.</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -866,10 +893,14 @@ Combined. This is a mix of inattentive symptoms and hyperactive/impulsive sympto
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="s3L-c2-g8o">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9gj-nl-5Qv">
                                 <rect key="frame" x="16" y="327" width="358" height="494"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Although many types of therapies exist, some psychotherapy techniques proven to be effective include:
 
 Cognitive behavioral therapy (CBT), which helps you identify unhealthy, negative beliefs and behaviors and replace them with healthy, positive ones 
@@ -878,16 +909,16 @@ Acceptance and commitment therapy, which helps you become aware of and accept yo
 Psychodynamic and psychoanalysis therapies, which focus on increasing your awareness of unconscious thoughts and behaviors, developing new insights into your motivations, and resolving conflicts
 Interpersonal psychotherapy, which focuses on addressing problems with your current relationships with other people to improve your interpersonal skills — how you relate to others, such as family, friends and colleagues
 Supportive psychotherapy, which reinforces your ability to cope with stress and difficult situations</string>
-                                <color key="textColor" systemColor="labelColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="a1h-W2-LIc">
-                                <rect key="frame" x="36" y="129" width="319" height="176"/>
+                                <rect key="frame" x="16" y="143" width="319" height="176"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Psychotherapy is a general term for treating mental health problems by talking with a psychiatrist, psychologist or other mental health provider. During psychotherapy, you learn about your condition and your moods, feelings, thoughts and behaviors. Psychotherapy helps you learn how to take control of your life and respond to challenging situations with healthy coping skills.</string>
-                                <color key="textColor" systemColor="labelColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -924,6 +955,10 @@ Supportive psychotherapy, which reinforces your ability to cope with stress and 
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="Rmk-3E-a8N">
+                                <rect key="frame" x="0.0" y="-28" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Cb-X9-QuT">
                                 <rect key="frame" x="16" y="176" width="358" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1044,10 +1079,14 @@ Supportive psychotherapy, which reinforces your ability to cope with stress and 
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="CBy-3j-g3O">
+                                <rect key="frame" x="0.0" y="-14" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="g4e-CH-905">
                                 <rect key="frame" x="29" y="152" width="345" height="342"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">1. Eliminate distractions. 
 2. Reduce multitasking. 
 3. Practice mindfulness and meditation. 
@@ -1057,7 +1096,7 @@ Supportive psychotherapy, which reinforces your ability to cope with stress and 
 7. Connect with nature.
 8. Train your brain.
 </string>
-                                <color key="textColor" systemColor="labelColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1163,10 +1202,14 @@ Supportive psychotherapy, which reinforces your ability to cope with stress and 
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="P1u-56-E0Q">
+                                <rect key="frame" x="0.0" y="-28" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ScO-Jb-vfO">
                                 <rect key="frame" x="48" y="88" width="294" height="721"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">1. Kneaded Erasers
 A kneaded eraser is a multifunctional fidget. Kneaded erasers resemble Play-Doh or putty, and they can erase pencil marks on paper. Kneadable erasers are a good choice for a fidget because they can be endlessly kneaded by a child's hands and are also a useful school supply.
 
@@ -1181,7 +1224,7 @@ Sometimes, a fidget that engages your child's hands is too distracting. The rubb
 
 5. Markers and Paper
 While doodling used to be discouraged during class, it has proven to be an excellent fidget activity for ADHD students. They can doodle while they listen to their teacher, and they'll have a portfolio of their drawings at the end of the school year.</string>
-                                <color key="textColor" systemColor="labelColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1443,6 +1486,10 @@ While doodling used to be discouraged during class, it has proven to be an excel
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="3hZ-Ul-eoP">
+                                <rect key="frame" x="0.0" y="-28" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lDE-o5-dAa">
                                 <rect key="frame" x="16" y="198" width="358" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1621,6 +1668,10 @@ While doodling used to be discouraged during class, it has proven to be an excel
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="vv3-Jp-BtG">
+                                <rect key="frame" x="0.0" y="-28" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="office-hours" translatesAutoresizingMaskIntoConstraints="NO" id="Hkr-xM-YkP">
                                 <rect key="frame" x="52" y="128" width="287" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1657,6 +1708,10 @@ While doodling used to be discouraged during class, it has proven to be an excel
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="ELj-sz-Qyc">
+                                <rect key="frame" x="0.0" y="-28" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grade 11 Courses" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w4f-PT-Vya">
                                 <rect key="frame" x="77" y="125" width="237" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1784,10 +1839,14 @@ While doodling used to be discouraged during class, it has proven to be an excel
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="MLw-ot-QOV">
+                                <rect key="frame" x="0.0" y="-28" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="z2S-7R-vmI">
                                 <rect key="frame" x="16" y="135" width="358" height="402"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Feynman technique: The Feynman Technique is a method of learning that unleashes your potential and forces you to develop a deep understanding. 
 
 There are four key steps to the Feynman Technique:
@@ -1796,7 +1855,7 @@ There are four key steps to the Feynman Technique:
 2. Explain it to a 12 year old
 3. Reflect, Refine, and Simplify
 4. Organize and Review</string>
-                                <color key="textColor" systemColor="labelColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1818,13 +1877,17 @@ There are four key steps to the Feynman Technique:
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="yas-go-M1M">
+                                <rect key="frame" x="0.0" y="-28" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="O9o-Ts-Hxr">
                                 <rect key="frame" x="32" y="215" width="342" height="329"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Spaced Practice: When you space your learning, you take that same amount of study time, and spread it out across a much longer period of time. Doing it this way, that same amount of study time will produce more long-lasting learning. For example, five hours spread out over two weeks is better than the same five hours right before the exam.
 </string>
-                                <color key="textColor" systemColor="labelColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1961,6 +2024,10 @@ There are four key steps to the Feynman Technique:
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="ciH-pI-OJM">
+                                <rect key="frame" x="0.0" y="-28" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pq4r" translatesAutoresizingMaskIntoConstraints="NO" id="MUB-12-8v0">
                                 <rect key="frame" x="16" y="212" width="358" height="421"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1983,12 +2050,16 @@ There are four key steps to the Feynman Technique:
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="Y8r-Fu-C5W">
+                                <rect key="frame" x="0.0" y="-14" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8JY-VD-WRD">
                                 <rect key="frame" x="16" y="195" width="358" height="454"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Leitner System: employs the concept of spaced repetition, which is an approach to memorization that uses time intervals. Rather than cramming information into your brain all in one sitting, spaced repetition encourages learners to space out learning over periods of time. Under the Leitner System, learners dedicate different time periods to studying certain flashcards and concepts, based on the learner’s own needs or preferences.</string>
-                                <color key="textColor" systemColor="labelColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2010,6 +2081,10 @@ There are four key steps to the Feynman Technique:
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="yxn-sH-BUP">
+                                <rect key="frame" x="0.0" y="-28" width="392" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grade 12 Courses" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8P4-Sh-rPT">
                                 <rect key="frame" x="76" y="125" width="240" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2119,7 +2194,7 @@ There are four key steps to the Feynman Technique:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qy3-h9-PnA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2037" y="835"/>
+            <point key="canvasLocation" x="2036.9230769230769" y="834.59715639810418"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="sEm-Tm-zfw">
@@ -2129,6 +2204,10 @@ There are four key steps to the Feynman Technique:
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="DVc-Wu-t3r">
+                                <rect key="frame" x="0.0" y="-28" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sqr31" translatesAutoresizingMaskIntoConstraints="NO" id="UcR-82-xYW">
                                 <rect key="frame" x="16" y="157" width="358" height="447"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2151,17 +2230,21 @@ There are four key steps to the Feynman Technique:
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="2oQ-9m-j4n">
+                                <rect key="frame" x="0.0" y="-28" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tLC-Gt-4Ck">
                                 <rect key="frame" x="27" y="154" width="347" height="454"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Retrieval Practice: helps students “use it or lose it,” just like practicing a language or an instrument
 
 With retrieval practice, struggling is a good thing for learning (what scientists call a “desirable difficulty”)
 
  improves students’ understanding of their own learning process (what scientists call “metacognition”)
 </string>
-                                <color key="textColor" systemColor="labelColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2183,6 +2266,10 @@ With retrieval practice, struggling is a good thing for learning (what scientist
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="8V3-IH-fLD">
+                                <rect key="frame" x="0.0" y="-14" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Nickname" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tax-qI-bmd">
                                 <rect key="frame" x="16" y="144" width="352" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2274,6 +2361,10 @@ With retrieval practice, struggling is a good thing for learning (what scientist
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="gyv-Qr-Az7">
+                                <rect key="frame" x="0.0" y="-28" width="390" height="872"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="n4W-S5-fKS">
                                 <rect key="frame" x="62" y="135" width="267" height="232"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
