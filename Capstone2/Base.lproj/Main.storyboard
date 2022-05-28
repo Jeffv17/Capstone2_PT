@@ -3,6 +3,7 @@
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -133,96 +134,125 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grade 9 Courses" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rYq-dm-jrE">
-                                <rect key="frame" x="74" y="88" width="243" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
-                                <nil key="textColor"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="IzN-bH-gkM">
+                                <rect key="frame" x="20" y="163" width="350" height="521"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="UDj-m2-mU2">
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="93"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uh5-R5-UBv">
+                                                <rect key="frame" x="0.0" y="0.0" width="168.66666666666666" height="93"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Phys Ed I">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPP-BH-U3d">
+                                                <rect key="frame" x="181.66666666666663" y="0.0" width="168.33333333333337" height="93"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Health I">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="mhT-fO-Xpz">
+                                        <rect key="frame" x="0.0" y="107" width="350" height="93"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIE-rq-vkp">
+                                                <rect key="frame" x="0.0" y="0.0" width="168" height="93"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="American Experiences/English I">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12T-XJ-yRM">
+                                                <rect key="frame" x="182" y="0.0" width="168" height="93"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="American Experiences/History I">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="kiA-L4-QYP">
+                                        <rect key="frame" x="0.0" y="214" width="350" height="93"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WkF-Ns-TQt">
+                                                <rect key="frame" x="0.0" y="0.0" width="168" height="93"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Integrated Mathematics I">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xE5-Tg-Sdj">
+                                                <rect key="frame" x="182" y="0.0" width="168" height="93"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Integrated Mathematics II">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="vtV-jc-9Fe">
+                                        <rect key="frame" x="0.0" y="321" width="350" height="93"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w4j-R4-ICr">
+                                                <rect key="frame" x="0.0" y="0.0" width="168" height="93"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Intro to Computing Ideas">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XiG-T5-4lU">
+                                                <rect key="frame" x="182" y="0.0" width="168" height="93"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Principles of Biomedical Science">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="kc4-AS-KtP">
+                                        <rect key="frame" x="0.0" y="428" width="350" height="93"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQj-nn-A2v">
+                                                <rect key="frame" x="0.0" y="0.0" width="168" height="93"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Intro to Engineering Design">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J58-4f-38Z">
+                                                <rect key="frame" x="182" y="0.0" width="168" height="93"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Art Design I">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grade 09 Courses" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5NX-gO-Scw">
+                                <rect key="frame" x="40" y="69" width="350" height="99.333333333333314"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="32"/>
+                                <color key="textColor" systemColor="systemYellowColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uh5-R5-UBv">
-                                <rect key="frame" x="16" y="163" width="358" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Phys Ed I">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQj-nn-A2v">
-                                <rect key="frame" x="16" y="559" width="358" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Intro to Engineering Design">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XiG-T5-4lU">
-                                <rect key="frame" x="26" y="497" width="358" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Principles of Biomedical Science">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPP-BH-U3d">
-                                <rect key="frame" x="16" y="212" width="358" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Health I">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIE-rq-vkp">
-                                <rect key="frame" x="16" y="261" width="358" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="American Experiences/English I">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12T-XJ-yRM">
-                                <rect key="frame" x="16" y="310" width="358" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="American Experiences/History I">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WkF-Ns-TQt">
-                                <rect key="frame" x="16" y="359" width="358" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Integrated Mathematics I">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xE5-Tg-Sdj">
-                                <rect key="frame" x="26" y="408" width="358" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Integrated Mathematics II">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w4j-R4-ICr">
-                                <rect key="frame" x="26" y="448" width="358" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Intro to Computing Ideas">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J58-4f-38Z">
-                                <rect key="frame" x="16" y="664" width="358" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Art Design I">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
-                                </buttonConfiguration>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="h5Q-VP-ZMJ"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
+                        <constraints>
+                            <constraint firstItem="IzN-bH-gkM" firstAttribute="top" secondItem="h5Q-VP-ZMJ" secondAttribute="top" constant="75" id="4xx-rI-mBE"/>
+                            <constraint firstItem="5NX-gO-Scw" firstAttribute="leading" secondItem="h5Q-VP-ZMJ" secondAttribute="leading" constant="40" id="62Q-rx-uJH"/>
+                            <constraint firstAttribute="trailing" secondItem="IzN-bH-gkM" secondAttribute="trailing" constant="20" id="VA1-eb-cJ5"/>
+                            <constraint firstItem="5NX-gO-Scw" firstAttribute="trailing" secondItem="h5Q-VP-ZMJ" secondAttribute="trailing" id="aYy-aY-lrI"/>
+                            <constraint firstItem="5NX-gO-Scw" firstAttribute="top" secondItem="e2t-Uy-J0V" secondAttribute="topMargin" constant="-19" id="cBM-tI-1dV"/>
+                            <constraint firstItem="h5Q-VP-ZMJ" firstAttribute="bottom" secondItem="5NX-gO-Scw" secondAttribute="bottom" constant="592.66666666666674" id="u14-rh-jKi"/>
+                            <constraint firstItem="IzN-bH-gkM" firstAttribute="leading" secondItem="h5Q-VP-ZMJ" secondAttribute="leading" constant="20" id="xOS-pc-Vhg"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="lGu-vk-S2D">
                         <barButtonItem key="rightBarButtonItem" title="Sign Out" id="l7a-kg-AQh">
@@ -244,15 +274,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Studying Techniques" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p85-uU-cqH">
-                                <rect key="frame" x="44" y="88" width="303" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="f1u-ro-voD">
-                                <rect key="frame" x="61.999999999999972" y="156" width="306.66666666666669" height="414"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="f1u-ro-voD">
+                                <rect key="frame" x="41.666666666666657" y="215" width="306.66666666666674" height="414"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVR-0I-1ZE">
                                         <rect key="frame" x="0.0" y="0.0" width="306.66666666666669" height="52.333333333333336"/>
@@ -273,7 +296,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ns8-jg-CC6">
-                                        <rect key="frame" x="0.0" y="72.333333333333329" width="306.66666666666669" height="52.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="72.333333333333314" width="306.66666666666669" height="52.333333333333343"/>
                                         <color key="tintColor" systemColor="tertiaryLabelColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled">
@@ -291,7 +314,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sw2-Hf-rt0">
-                                        <rect key="frame" x="0.0" y="144.66666666666666" width="306.66666666666669" height="52.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="144.66666666666669" width="306.66666666666669" height="52.333333333333343"/>
                                         <color key="tintColor" systemColor="tertiaryLabelColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled">
@@ -346,7 +369,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QT6-MF-LZB">
-                                        <rect key="frame" x="0.0" y="361.66666666666669" width="306.66666666666669" height="52.333333333333314"/>
+                                        <rect key="frame" x="0.0" y="361.66666666666663" width="306.66666666666669" height="52.333333333333314"/>
                                         <color key="tintColor" systemColor="tertiaryLabelColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled">
@@ -365,9 +388,20 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Studying Techniques" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p85-uU-cqH">
+                                <rect key="frame" x="10" y="110" width="364" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="38"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jLb-FC-pv8"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
+                        <constraints>
+                            <constraint firstItem="f1u-ro-voD" firstAttribute="centerY" secondItem="fba-iz-nYH" secondAttribute="centerY" id="jS3-Kr-XiW"/>
+                            <constraint firstItem="f1u-ro-voD" firstAttribute="centerX" secondItem="fba-iz-nYH" secondAttribute="centerX" id="sb3-vv-m6c"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="74l-gR-L8s"/>
                 </viewController>
@@ -731,19 +765,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Adhd-medication-5210476_final_02-a8c934ad963e434d95344a2f88ebb65d" translatesAutoresizingMaskIntoConstraints="NO" id="H3T-vG-YHX">
+                                <rect key="frame" x="16" y="405" width="358" height="264"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Medications" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9IQ-gJ-UI1">
+                                <rect key="frame" x="103" y="110" width="157" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="30"/>
+                                <color key="textColor" systemColor="systemYellowColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0je-DJ-W1w">
-                                <rect key="frame" x="44" y="183" width="306" height="161"/>
+                                <rect key="frame" x="12" y="161" width="366" height="227"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Medication is often the treatment of choice, as it currently is most effective. However, medication has only short-term effects, treatment adherence is often low and most importantly; medication has serious side effects. </string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Adhd-medication-5210476_final_02-a8c934ad963e434d95344a2f88ebb65d" translatesAutoresizingMaskIntoConstraints="NO" id="H3T-vG-YHX">
-                                <rect key="frame" x="16" y="352" width="358" height="264"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="A8N-IG-U5B"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
@@ -1061,7 +1102,7 @@ Supportive psychotherapy, which reinforces your ability to cope with stress and 
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled">
                                                     <attributedString key="attributedTitle">
-                                                        <fragment content="Stimulants/Medications">
+                                                        <fragment content="Medications">
                                                             <attributes>
                                                                 <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <font key="NSFont" size="20" name="Helvetica"/>
@@ -1360,108 +1401,113 @@ While doodling used to be discouraged during class, it has proven to be an excel
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="CsV-q2-n5p">
-                                <rect key="frame" x="110.99999999999999" y="220" width="169.66666666666666" height="220.66666666666666"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Bp4-KG-4AJ">
+                                <rect key="frame" x="-20" y="97.999999999999972" width="701.33333333333337" height="284.66666666666669"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1d-ev-OP6">
-                                        <rect key="frame" x="0.0" y="0.0" width="169.66666666666666" height="47.666666666666664"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Grade 09 👶🏾 ">
-                                            <fontDescription key="titleFontDescription" name="DamascusBold" family="Damascus" pointSize="25"/>
-                                            <color key="baseForegroundColor" systemColor="systemCyanColor"/>
-                                        </buttonConfiguration>
-                                        <connections>
-                                            <segue destination="Hku-Ub-Zfu" kind="show" id="mf5-wl-Xug"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NH3-Pt-4YH">
-                                        <rect key="frame" x="3.3333333333333286" y="57.666666666666671" width="163.33333333333337" height="47.666666666666671"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Grade 10 👩🏾‍🏫">
-                                            <fontDescription key="titleFontDescription" name="DamascusBold" family="Damascus" pointSize="25"/>
-                                            <color key="baseForegroundColor" systemColor="systemCyanColor"/>
-                                        </buttonConfiguration>
-                                        <connections>
-                                            <segue destination="CBG-57-N6q" kind="show" id="dnb-00-oJo"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCP-3I-v98">
-                                        <rect key="frame" x="4" y="115.33333333333333" width="161.66666666666666" height="47.666666666666671"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Grade 11 👨🏾‍💻">
-                                            <fontDescription key="titleFontDescription" name="DamascusBold" family="Damascus" pointSize="25"/>
-                                            <color key="baseForegroundColor" systemColor="systemCyanColor"/>
-                                        </buttonConfiguration>
-                                        <connections>
-                                            <segue destination="Wgc-u3-md1" kind="show" id="eXX-Ch-LS6"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMk-OB-QYJ">
-                                        <rect key="frame" x="3.3333333333333286" y="173" width="163.33333333333337" height="47.666666666666657"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Grade 12 🎓">
-                                            <fontDescription key="titleFontDescription" name="DamascusBold" family="Damascus" pointSize="25"/>
-                                            <color key="baseForegroundColor" systemColor="systemCyanColor"/>
-                                        </buttonConfiguration>
-                                        <connections>
-                                            <segue destination="1DL-xl-s0L" kind="show" id="gdk-1O-Stw"/>
-                                        </connections>
-                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="K2o-dn-ltM">
+                                        <rect key="frame" x="0.0" y="0.0" width="350.66666666666669" height="190.33333333333334"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bpC-IE-w4I">
+                                                <rect key="frame" x="163.66666666666666" y="1.6666666666666643" width="23.333333333333343" height="17.333333333333336"/>
+                                                <color key="tintColor" red="0.96841138599999999" green="0.88528474319999995" blue="0.18705037290000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odZ-Qa-xBM">
+                                                <rect key="frame" x="53.333333333333329" y="65.333333333333329" width="244.33333333333337" height="36.333333333333329"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Browse Study Techniques">
+                                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="tEB-VH-2p7" kind="show" id="VGK-2n-2fR"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKc-H3-xA6">
+                                                <rect key="frame" x="63.666666666666671" y="146.66666666666666" width="223.66666666666663" height="43.666666666666657"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="LEARN ABOUT ADHD">
+                                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="25"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="pf2-6H-yVR" kind="show" id="Nd3-FC-PUp"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="CsV-q2-n5p">
+                                        <rect key="frame" x="350.66666666666663" y="0.0" width="350.66666666666663" height="284.66666666666669"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose your Experience" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FfJ-L5-Qhc">
+                                                <rect key="frame" x="0.0" y="0.0" width="350.66666666666669" height="30"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="DamascusBold" family="Damascus" pointSize="30"/>
+                                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZAp-8l-NUv">
+                                                <rect key="frame" x="163.33333333333331" y="40" width="24" height="14"/>
+                                                <color key="tintColor" systemColor="systemPinkColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="">
+                                                    <backgroundConfiguration key="background" image="star.circle" catalog="system"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="okA-Wl-pk0" kind="show" id="Th7-sw-ipI"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1d-ev-OP6">
+                                                <rect key="frame" x="90.666666666666615" y="64" width="169.66666666666663" height="47.666666666666657"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Grade 09 👶🏾 ">
+                                                    <fontDescription key="titleFontDescription" name="DamascusBold" family="Damascus" pointSize="25"/>
+                                                    <color key="baseForegroundColor" systemColor="systemCyanColor"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="Hku-Ub-Zfu" kind="show" id="mf5-wl-Xug"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NH3-Pt-4YH">
+                                                <rect key="frame" x="93.666666666666643" y="121.66666666666667" width="163.33333333333337" height="47.666666666666671"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Grade 10 👩🏾‍🏫">
+                                                    <fontDescription key="titleFontDescription" name="DamascusBold" family="Damascus" pointSize="25"/>
+                                                    <color key="baseForegroundColor" systemColor="systemCyanColor"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="CBG-57-N6q" kind="show" id="dnb-00-oJo"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCP-3I-v98">
+                                                <rect key="frame" x="94.666666666666615" y="179.33333333333334" width="161.66666666666663" height="47.666666666666657"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Grade 11 👨🏾‍💻">
+                                                    <fontDescription key="titleFontDescription" name="DamascusBold" family="Damascus" pointSize="25"/>
+                                                    <color key="baseForegroundColor" systemColor="systemCyanColor"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="Wgc-u3-md1" kind="show" id="eXX-Ch-LS6"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMk-OB-QYJ">
+                                                <rect key="frame" x="93.666666666666643" y="236.99999999999997" width="163.33333333333337" height="47.666666666666657"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Grade 12 🎓">
+                                                    <fontDescription key="titleFontDescription" name="DamascusBold" family="Damascus" pointSize="25"/>
+                                                    <color key="baseForegroundColor" systemColor="systemCyanColor"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="1DL-xl-s0L" kind="show" id="gdk-1O-Stw"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odZ-Qa-xBM">
-                                <rect key="frame" x="49" y="726" width="293" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Browse Study Techniques">
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="tEB-VH-2p7" kind="show" id="VGK-2n-2fR"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKc-H3-xA6">
-                                <rect key="frame" x="83" y="769" width="224" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="LEARN ABOUT ADHD">
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="25"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="pf2-6H-yVR" kind="show" id="Nd3-FC-PUp"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZAp-8l-NUv">
-                                <rect key="frame" x="158" y="153" width="53" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="systemPinkColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="">
-                                    <backgroundConfiguration key="background" image="star.circle" catalog="system"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="okA-Wl-pk0" kind="show" id="Th7-sw-ipI"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose your Experience" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FfJ-L5-Qhc">
-                                <rect key="frame" x="0.0" y="98" width="390" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="DamascusBold" family="Damascus" pointSize="30"/>
-                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="book.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bpC-IE-w4I">
-                                <rect key="frame" x="37" y="432.66666666666606" width="317" height="301"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.96841138599999999" green="0.88528474319999995" blue="0.18705037290000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Dkq-YV-zgq"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
@@ -1701,7 +1747,7 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Ms. Buske: 3:30 - 4:00pm">
                                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="18"/>
-                                                    <color key="baseBackgroundColor" systemColor="systemBrownColor"/>
+                                                    <color key="baseBackgroundColor" systemColor="systemTealColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <segue destination="SQy-wI-7aW" kind="show" id="3YF-Pv-pJA"/>
@@ -1728,7 +1774,7 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Ms. Austin: 3:30 - 4:00pm">
                                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="18"/>
-                                                    <color key="baseBackgroundColor" red="0.67112430418811353" green="0.60195487094160371" blue="0.21872396310698369" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="baseBackgroundColor" systemColor="tintColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <segue destination="SQy-wI-7aW" kind="show" id="Pgy-ME-jrW"/>
@@ -1766,6 +1812,7 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Ms. Marci: 3:30 - 4:00pm">
                                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="18"/>
+                                                    <color key="baseBackgroundColor" red="0.9195789539" green="0.56465891899999998" blue="0.1165137545" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <segue destination="SQy-wI-7aW" kind="show" id="H7d-F5-eDO"/>
@@ -1788,10 +1835,10 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Office Hours " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0IL-4o-286">
-                                <rect key="frame" x="16" y="58" width="337" height="109"/>
+                                <rect key="frame" x="0.0" y="116" width="337" height="109"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="DamascusBold" family="Damascus" pointSize="40"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
                                 <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1911,14 +1958,14 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcP-IQ-tqI">
                                                 <rect key="frame" x="0.0" y="0.0" width="171" height="99.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Spanish I" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="tinted" title="Spanish I" cornerStyle="large">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLV-63-G1p">
                                                 <rect key="frame" x="179" y="0.0" width="171" height="99.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Phys Ed III" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="tinted" title="Phys Ed III" cornerStyle="large">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                                 </buttonConfiguration>
                                             </button>
@@ -1929,15 +1976,17 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZg-CH-txR">
                                                 <rect key="frame" x="0.0" y="0.0" width="171" height="99.333333333333329"/>
+                                                <color key="tintColor" red="1" green="0.12339964170000001" blue="0.1040000308" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Driver Education" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="tinted" title="Driver Education" cornerStyle="large">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                                 </buttonConfiguration>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SsZ-mI-h2G">
+                                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SsZ-mI-h2G">
                                                 <rect key="frame" x="179" y="0.0" width="171" height="99.333333333333329"/>
+                                                <color key="tintColor" red="0.9195789539" green="0.56465891899999998" blue="0.1165137545" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="HUM 101 Eng. Comp" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="tinted" title="HUM 101 Eng. Comp" cornerStyle="large">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="19"/>
                                                 </buttonConfiguration>
                                             </button>
@@ -1948,16 +1997,17 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Swk-u1-fDr">
                                                 <rect key="frame" x="0.0" y="0.0" width="171" height="99.333333333333329"/>
+                                                <color key="tintColor" red="0.1800016452" green="1" blue="0.94699415799999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Computer Science A (AP)" cornerStyle="large">
-                                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
+                                                <buttonConfiguration key="configuration" style="tinted" title="Computer Science A (AP)" cornerStyle="large">
+                                                    <fontDescription key="titleFontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="22"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QXV-fa-tor">
                                                 <rect key="frame" x="179" y="0.0" width="171" height="99.333333333333329"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Honors Global Studies" cornerStyle="large">
-                                                    <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
+                                                <buttonConfiguration key="configuration" style="tinted" title="Honors Global Studies" cornerStyle="large">
+                                                    <fontDescription key="titleFontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="22"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
@@ -1968,14 +2018,14 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSA-yq-3cu">
                                                 <rect key="frame" x="0.0" y="0.0" width="171" height="99.333333333333329"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Integrated Mathematics III" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="tinted" title="Integrated Mathematics III" cornerStyle="large">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5mM-ci-29v">
                                                 <rect key="frame" x="179" y="0.0" width="171" height="99.333333333333329"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="NJIT - MATH 110 PreCalculus" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="tinted" title="NJIT - MATH 110 PreCalculus" cornerStyle="large">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                                 </buttonConfiguration>
                                             </button>
@@ -1987,14 +2037,14 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5y-do-2t1">
                                                 <rect key="frame" x="0.0" y="0.0" width="171.66666666666666" height="99.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="NJIT CHEM 125/125A General Chemistry" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="tinted" title="NJIT CHEM 125/125A General Chemistry" cornerStyle="large">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zd1-rq-vyj">
                                                 <rect key="frame" x="178.66666666666663" y="0.0" width="171.33333333333337" height="99.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Environmental Science (AP)" cornerStyle="large" titleAlignment="center">
+                                                <buttonConfiguration key="configuration" style="tinted" title="Environmental Science (AP)" cornerStyle="large" titleAlignment="center">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
@@ -2006,14 +2056,14 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a51-B5-8wJ">
                                                 <rect key="frame" x="0.0" y="0.0" width="171" height="99.333333333333329"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Biomedical Science" cornerStyle="large" titleAlignment="center">
+                                                <buttonConfiguration key="configuration" style="tinted" title="Biomedical Science" cornerStyle="large" titleAlignment="center">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GpX-eM-Uzd">
                                                 <rect key="frame" x="179" y="0.0" width="171" height="99.333333333333329"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Engineering" cornerStyle="large" titleAlignment="center">
+                                                <buttonConfiguration key="configuration" style="tinted" title="Engineering" cornerStyle="large" titleAlignment="center">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                                 </buttonConfiguration>
                                             </button>
@@ -2225,7 +2275,7 @@ There are four key steps to the Feynman Technique:
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pq4r" translatesAutoresizingMaskIntoConstraints="NO" id="MUB-12-8v0">
-                                <rect key="frame" x="16" y="88" width="358" height="545"/>
+                                <rect key="frame" x="16" y="216" width="358" height="545"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -2554,13 +2604,20 @@ With retrieval practice, struggling is a good thing for learning (what scientist
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="n4W-S5-fKS">
-                                <rect key="frame" x="62" y="135" width="267" height="232"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Behavioral Therapy" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogo-7H-my8">
+                                <rect key="frame" x="21" y="113" width="358" height="109"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
+                                <color key="textColor" name="AccentColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="n4W-S5-fKS">
+                                <rect key="frame" x="26" y="230" width="353" height="539"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">What is behavioral therapy, and how can a parent use it on its own or as a component of combined treatment? While medication works on a neurological level to regulate the brain (kids with ADHD often have irregular brain-wave levels), behavioral therapy addresses specific problem behaviors by structuring time at home, establishing predictability and routines, and increasing positive attention.</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" systemColor="systemGroupedBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -2704,6 +2761,9 @@ With retrieval practice, struggling is a good thing for learning (what scientist
         <image name="sqr31" width="736" height="552"/>
         <image name="star.circle" catalog="system" width="128" height="121"/>
         <image name="wolf" width="236" height="236"/>
+        <namedColor name="AccentColor">
+            <color red="1" green="0.79199999570846558" blue="0.15700000524520874" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
@@ -2719,9 +2779,6 @@ With retrieval practice, struggling is a good thing for learning (what scientist
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemBrownColor">
-            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemCyanColor">
             <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
@@ -2733,6 +2790,9 @@ With retrieval practice, struggling is a good thing for learning (what scientist
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2760,6 +2820,9 @@ With retrieval practice, struggling is a good thing for learning (what scientist
         </systemColor>
         <systemColor name="tertiarySystemGroupedBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
