@@ -17,7 +17,12 @@ class HomePageViewController: UIViewController {
         
         backButton.isEnabled = false
         self.navigationController?.navigationBar.tintColor = UIColor.white// for titles, buttons, etc.
+        let attrs = [
+            NSAttributedString.Key.foregroundColor: UIColor.red,
+            NSAttributedString.Key.font: UIFont(name: "Georgia-Bold", size: 66)!
+        ]
 
+        UINavigationBar.appearance().titleTextAttributes = attrs
 
 
         // Do any additional setup after loading the view.

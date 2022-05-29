@@ -135,20 +135,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="IzN-bH-gkM">
-                                <rect key="frame" x="20" y="118" width="350" height="664"/>
+                                <rect key="frame" x="20" y="118" width="350" height="494"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grade 09 Courses" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5NX-gO-Scw">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="99"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="70.666666666666671"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="32"/>
                                         <color key="textColor" systemColor="systemYellowColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="UDj-m2-mU2">
-                                        <rect key="frame" x="0.0" y="113" width="350" height="99"/>
+                                        <rect key="frame" x="0.0" y="84.666666666666657" width="350" height="70.666666666666657"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uh5-R5-UBv">
-                                                <rect key="frame" x="0.0" y="0.0" width="168.66666666666666" height="99"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="168.66666666666666" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Phys Ed I" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
@@ -159,9 +159,9 @@
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPP-BH-U3d">
-                                                <rect key="frame" x="181.66666666666663" y="0.0" width="168.33333333333337" height="99"/>
+                                                <rect key="frame" x="181.66666666666663" y="0.0" width="168.33333333333337" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Health I" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Health I" cornerStyle="large" titleAlignment="center">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.82527466449731923" green="0.59226911162598816" blue="0.84258943796157837" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -172,151 +172,102 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="mhT-fO-Xpz">
-                                        <rect key="frame" x="0.0" y="226" width="350" height="99"/>
+                                        <rect key="frame" x="0.0" y="169.33333333333331" width="350" height="70.666666666666686"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIE-rq-vkp">
-                                                <rect key="frame" x="0.0" y="0.0" width="168" height="99"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="168" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="English I" cornerStyle="large" titleAlignment="center">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.82527466449731923" green="0.59226911162598816" blue="0.84258943796157837" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="American Experiences/English I">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12T-XJ-yRM">
-                                                <rect key="frame" x="182" y="0.0" width="168" height="99"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12T-XJ-yRM">
+                                                <rect key="frame" x="182" y="0.0" width="168" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="History I" cornerStyle="large" titleAlignment="center">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.82527466449731923" green="0.59226911162598816" blue="0.84258943796157837" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="American Experiences/History I">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="kiA-L4-QYP">
-                                        <rect key="frame" x="0.0" y="339" width="350" height="99"/>
+                                        <rect key="frame" x="0.0" y="253.99999999999997" width="350" height="70.666666666666657"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WkF-Ns-TQt">
-                                                <rect key="frame" x="0.0" y="0.0" width="168" height="99"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="168" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Integrated Mathematics I" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.82527466449731923" green="0.59226911162598816" blue="0.84258943796157837" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Integrated Mathematics I">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xE5-Tg-Sdj">
-                                                <rect key="frame" x="182" y="0.0" width="168" height="99"/>
+                                                <rect key="frame" x="182" y="0.0" width="168" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Integrated Mathematics II" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.82527466449731923" green="0.59226911162598816" blue="0.84258943796157837" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Integrated Mathematics II">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="vtV-jc-9Fe">
-                                        <rect key="frame" x="0.0" y="452" width="350" height="99"/>
+                                        <rect key="frame" x="0.0" y="338.66666666666669" width="350" height="70.666666666666686"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w4j-R4-ICr">
-                                                <rect key="frame" x="0.0" y="0.0" width="168" height="99"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="168" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Computer Science" cornerStyle="large" titleAlignment="center">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.82527466449731923" green="0.59226911162598816" blue="0.84258943796157837" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Intro to Computing Ideas">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XiG-T5-4lU">
-                                                <rect key="frame" x="182" y="0.0" width="168" height="99"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" toolTip="\" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XiG-T5-4lU">
+                                                <rect key="frame" x="182" y="0.0" width="168" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Biomedical Science" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.82527466449731923" green="0.59226911162598816" blue="0.84258943796157837" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Principles of Biomedical Science">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="kc4-AS-KtP">
-                                        <rect key="frame" x="0.0" y="565" width="350" height="99"/>
+                                        <rect key="frame" x="0.0" y="423.33333333333337" width="350" height="70.666666666666686"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQj-nn-A2v">
-                                                <rect key="frame" x="0.0" y="0.0" width="168" height="99"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="168" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Engineering Design" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.82527466449731923" green="0.59226911162598816" blue="0.84258943796157837" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Intro to Engineering Design">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J58-4f-38Z">
-                                                <rect key="frame" x="182" y="0.0" width="168" height="99"/>
+                                                <rect key="frame" x="182" y="0.0" width="168" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Art Design I" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
@@ -366,18 +317,12 @@
                                         <rect key="frame" x="0.0" y="0.0" width="306.66666666666669" height="52.333333333333336"/>
                                         <color key="tintColor" systemColor="tertiaryLabelColor"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                        <buttonConfiguration key="configuration" style="filled" title="SQ3R Method" cornerStyle="capsule">
                                             <backgroundConfiguration key="background">
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="strokeColor" systemColor="systemOrangeColor"/>
                                             </backgroundConfiguration>
-                                            <attributedString key="attributedTitle">
-                                                <fragment content="SQ3R Method">
-                                                    <attributes>
-                                                        <font key="NSFont" size="27" name="ChalkboardSE-Regular"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
+                                            <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="27"/>
                                             <color key="baseForegroundColor" red="0.96841138599999999" green="0.88528474319999995" blue="0.18705037290000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
@@ -389,18 +334,12 @@
                                         <rect key="frame" x="0.0" y="72.333333333333314" width="306.66666666666669" height="52.333333333333343"/>
                                         <color key="tintColor" systemColor="tertiaryLabelColor"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                        <buttonConfiguration key="configuration" style="filled" title="Retrieval Practice" cornerStyle="capsule">
                                             <backgroundConfiguration key="background">
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="strokeColor" systemColor="systemOrangeColor"/>
                                             </backgroundConfiguration>
-                                            <attributedString key="attributedTitle">
-                                                <fragment content="Retrieval Practice">
-                                                    <attributes>
-                                                        <font key="NSFont" size="27" name="ChalkboardSE-Regular"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
+                                            <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="27"/>
                                             <color key="baseForegroundColor" red="0.96841138599999999" green="0.88528474319999995" blue="0.18705037290000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
@@ -412,18 +351,12 @@
                                         <rect key="frame" x="0.0" y="144.66666666666669" width="306.66666666666669" height="52.333333333333343"/>
                                         <color key="tintColor" systemColor="tertiaryLabelColor"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                        <buttonConfiguration key="configuration" style="filled" title="Spaced Practice" cornerStyle="capsule">
                                             <backgroundConfiguration key="background">
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="strokeColor" systemColor="systemOrangeColor"/>
                                             </backgroundConfiguration>
-                                            <attributedString key="attributedTitle">
-                                                <fragment content="Spaced Practice">
-                                                    <attributes>
-                                                        <font key="NSFont" size="27" name="ChalkboardSE-Regular"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
+                                            <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="27"/>
                                             <color key="baseForegroundColor" red="0.96841138599999999" green="0.88528474319999995" blue="0.18705037290000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
@@ -435,18 +368,12 @@
                                         <rect key="frame" x="0.0" y="217" width="306.66666666666669" height="52.333333333333314"/>
                                         <color key="tintColor" systemColor="tertiaryLabelColor"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                        <buttonConfiguration key="configuration" style="filled" title="PQ4R Method" cornerStyle="capsule">
                                             <backgroundConfiguration key="background">
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="strokeColor" systemColor="systemOrangeColor"/>
                                             </backgroundConfiguration>
-                                            <attributedString key="attributedTitle">
-                                                <fragment content="PQ4R Method">
-                                                    <attributes>
-                                                        <font key="NSFont" size="27" name="ChalkboardSE-Regular"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
+                                            <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="27"/>
                                             <color key="baseForegroundColor" red="0.96841138599999999" green="0.88528474319999995" blue="0.18705037290000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
@@ -459,18 +386,12 @@
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" systemColor="tertiaryLabelColor"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                        <buttonConfiguration key="configuration" style="filled" title="The Feynman Technique" cornerStyle="capsule">
                                             <backgroundConfiguration key="background">
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="strokeColor" systemColor="systemOrangeColor"/>
                                             </backgroundConfiguration>
-                                            <attributedString key="attributedTitle">
-                                                <fragment content="The Feynman Technique">
-                                                    <attributes>
-                                                        <font key="NSFont" size="27" name="ChalkboardSE-Regular"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
+                                            <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="27"/>
                                             <color key="baseForegroundColor" red="0.96841138599999999" green="0.88528474319999995" blue="0.18705037290000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
@@ -482,18 +403,12 @@
                                         <rect key="frame" x="0.0" y="361.66666666666663" width="306.66666666666669" height="52.333333333333314"/>
                                         <color key="tintColor" systemColor="tertiaryLabelColor"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                        <buttonConfiguration key="configuration" style="filled" title="Leitner System" cornerStyle="capsule">
                                             <backgroundConfiguration key="background">
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="strokeColor" systemColor="systemOrangeColor"/>
                                             </backgroundConfiguration>
-                                            <attributedString key="attributedTitle">
-                                                <fragment content="Leitner System">
-                                                    <attributes>
-                                                        <font key="NSFont" size="27" name="ChalkboardSE-Regular"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
+                                            <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="27"/>
                                             <color key="baseForegroundColor" red="0.96841138599999999" green="0.88528474319999995" blue="0.18705037290000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
@@ -1630,19 +1545,12 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                                         <rect key="frame" x="0.0" y="0.0" width="185" height="106.66666666666667"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                                        <buttonConfiguration key="configuration" style="filled" title="Grade 09 Courses" cornerStyle="capsule">
                                                             <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="4">
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <color key="strokeColor" systemColor="systemBlueColor"/>
                                                             </backgroundConfiguration>
-                                                            <attributedString key="attributedTitle">
-                                                                <fragment content="Grade 09 Courses">
-                                                                    <attributes>
-                                                                        <font key="NSFont" size="25" name="ChalkboardSE-Bold"/>
-                                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                    </attributes>
-                                                                </fragment>
-                                                            </attributedString>
+                                                            <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="25"/>
                                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
                                                         </buttonConfiguration>
@@ -1654,19 +1562,12 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                                         <rect key="frame" x="195" y="0.0" width="185" height="106.66666666666667"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                                        <buttonConfiguration key="configuration" style="filled" title="Grade 10 Courses" cornerStyle="capsule">
                                                             <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="4">
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <color key="strokeColor" systemColor="systemBlueColor"/>
                                                             </backgroundConfiguration>
-                                                            <attributedString key="attributedTitle">
-                                                                <fragment content="Grade 10 Courses">
-                                                                    <attributes>
-                                                                        <font key="NSFont" size="25" name="ChalkboardSE-Bold"/>
-                                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                    </attributes>
-                                                                </fragment>
-                                                            </attributedString>
+                                                            <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="25"/>
                                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </buttonConfiguration>
@@ -1683,19 +1584,12 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                                         <rect key="frame" x="0.0" y="0.0" width="185" height="106.33333333333333"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                                        <buttonConfiguration key="configuration" style="filled" title="Grade 11 Courses" cornerStyle="capsule">
                                                             <backgroundConfiguration key="background">
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <color key="strokeColor" systemColor="systemPinkColor"/>
                                                             </backgroundConfiguration>
-                                                            <attributedString key="attributedTitle">
-                                                                <fragment content="Grade 11 Courses">
-                                                                    <attributes>
-                                                                        <font key="NSFont" size="25" name="ChalkboardSE-Bold"/>
-                                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                    </attributes>
-                                                                </fragment>
-                                                            </attributedString>
+                                                            <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="25"/>
                                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </buttonConfiguration>
                                                         <connections>
@@ -1706,19 +1600,12 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                                         <rect key="frame" x="195" y="0.0" width="185" height="106.33333333333333"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                                        <buttonConfiguration key="configuration" style="filled" title="Grade 12 Courses" cornerStyle="capsule">
                                                             <backgroundConfiguration key="background">
                                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <color key="strokeColor" systemColor="systemPinkColor"/>
                                                             </backgroundConfiguration>
-                                                            <attributedString key="attributedTitle">
-                                                                <fragment content="Grade 12 Courses">
-                                                                    <attributes>
-                                                                        <font key="NSFont" size="25" name="ChalkboardSE-Bold"/>
-                                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                    </attributes>
-                                                                </fragment>
-                                                            </attributedString>
+                                                            <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="25"/>
                                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </buttonConfiguration>
                                                         <connections>
@@ -1735,18 +1622,11 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <size key="titleShadowOffset" width="1" height="0.0"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                                        <buttonConfiguration key="configuration" style="filled" title=" Teacher Office Hours" cornerStyle="capsule">
                                                             <backgroundConfiguration key="background">
                                                                 <color key="strokeColor" red="0.34092539630000002" green="1" blue="0.70530911399999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             </backgroundConfiguration>
-                                                            <attributedString key="attributedTitle">
-                                                                <fragment content=" Teacher Office Hours">
-                                                                    <attributes>
-                                                                        <font key="NSFont" size="25" name="ChalkboardSE-Bold"/>
-                                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                    </attributes>
-                                                                </fragment>
-                                                            </attributedString>
+                                                            <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="25"/>
                                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </buttonConfiguration>
@@ -1758,18 +1638,11 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                                         <rect key="frame" x="194.66666666666663" y="0.0" width="185.33333333333337" height="106.66666666666667"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                                        <buttonConfiguration key="configuration" style="filled" title="Learn Study Techniques" cornerStyle="capsule">
                                                             <backgroundConfiguration key="background">
                                                                 <color key="strokeColor" red="0.34092539630000002" green="1" blue="0.70530911399999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             </backgroundConfiguration>
-                                                            <attributedString key="attributedTitle">
-                                                                <fragment content="Learn Study Techniques">
-                                                                    <attributes>
-                                                                        <font key="NSFont" size="25" name="ChalkboardSE-Bold"/>
-                                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                    </attributes>
-                                                                </fragment>
-                                                            </attributedString>
+                                                            <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="25"/>
                                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </buttonConfiguration>
@@ -2300,37 +2173,23 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcP-IQ-tqI">
                                                 <rect key="frame" x="0.0" y="0.0" width="171" height="99.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Spanish I" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.054332868919999999" green="1" blue="0.90442525279999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Spanish I">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLV-63-G1p">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLV-63-G1p">
                                                 <rect key="frame" x="179" y="0.0" width="171" height="99.666666666666671"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Phys Ed III" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.054332868919999999" green="1" blue="0.90442525279999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Phys Ed III">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                                                    <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
@@ -2342,19 +2201,12 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                                 <rect key="frame" x="0.0" y="0.0" width="171" height="99.333333333333329"/>
                                                 <color key="tintColor" red="1" green="0.12339964170000001" blue="0.1040000308" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Driver Education" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.054332868919999999" green="1" blue="0.90442525279999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Driver Education">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                     <color key="baseBackgroundColor" systemColor="linkColor"/>
                                                 </buttonConfiguration>
                                             </button>
@@ -2362,19 +2214,12 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                                 <rect key="frame" x="179" y="0.0" width="171" height="99.333333333333329"/>
                                                 <color key="tintColor" red="0.9195789539" green="0.56465891899999998" blue="0.1165137545" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="HUM 101 Eng. Comp" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.054332868919999999" green="1" blue="0.90442525279999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="HUM 101 Eng. Comp">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                     <color key="baseBackgroundColor" systemColor="linkColor"/>
                                                 </buttonConfiguration>
                                             </button>
@@ -2387,38 +2232,24 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                                 <rect key="frame" x="0.0" y="0.0" width="171" height="99.333333333333329"/>
                                                 <color key="tintColor" red="0.1800016452" green="1" blue="0.94699415799999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Computer Science A (AP)" cornerStyle="large" titleAlignment="center">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.054332868919999999" green="1" blue="0.90442525279999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Computer Science A (AP)">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                     <color key="baseBackgroundColor" systemColor="linkColor"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QXV-fa-tor">
                                                 <rect key="frame" x="179" y="0.0" width="171" height="99.333333333333329"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Honors Global Studies" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.054332868919999999" green="1" blue="0.90442525279999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Honors Global Studies">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                     <color key="baseBackgroundColor" systemColor="linkColor"/>
                                                 </buttonConfiguration>
                                             </button>
@@ -2430,37 +2261,23 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSA-yq-3cu">
                                                 <rect key="frame" x="0.0" y="0.0" width="171" height="99.333333333333329"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Mathematics III" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.054332868919999999" green="1" blue="0.90442525279999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Integrated Mathematics III">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5mM-ci-29v">
                                                 <rect key="frame" x="179" y="0.0" width="171" height="99.333333333333329"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="NJIT - MATH 110 PreCalculus" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.054332868919999999" green="1" blue="0.90442525279999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="NJIT - MATH 110 PreCalculus">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
@@ -2471,37 +2288,23 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5y-do-2t1">
                                                 <rect key="frame" x="0.0" y="0.0" width="171.66666666666666" height="99.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="NJIT CHEM 125/125A" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.054332868919999999" green="1" blue="0.90442525279999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="NJIT CHEM 125/125A">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zd1-rq-vyj">
                                                 <rect key="frame" x="178.66666666666663" y="0.0" width="171.33333333333337" height="99.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large" titleAlignment="center">
+                                                <buttonConfiguration key="configuration" style="filled" title="Environmental Science (AP)" cornerStyle="large" titleAlignment="center">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.054332868919999999" green="1" blue="0.90442525279999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Environmental Science (AP)">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
@@ -2512,37 +2315,23 @@ While doodling used to be discouraged during class, it has proven to be an excel
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a51-B5-8wJ">
                                                 <rect key="frame" x="0.0" y="0.0" width="171" height="99.333333333333329"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large" titleAlignment="center">
+                                                <buttonConfiguration key="configuration" style="filled" title="Biomedical Science" cornerStyle="large" titleAlignment="center">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.054332868919999999" green="1" blue="0.90442525279999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Biomedical Science">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GpX-eM-Uzd">
                                                 <rect key="frame" x="179" y="0.0" width="171" height="99.333333333333329"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large" titleAlignment="center">
+                                                <buttonConfiguration key="configuration" style="filled" title="Engineering" cornerStyle="large" titleAlignment="center">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.054332868919999999" green="1" blue="0.90442525279999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Engineering">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
@@ -2658,215 +2447,146 @@ There are four key steps to the Feynman Technique:
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2YX-Pb-rix">
-                                <rect key="frame" x="20" y="108" width="350" height="644"/>
+                                <rect key="frame" x="20" y="108" width="350" height="474"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grade 10 Courses" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5K7-W5-ZwB">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="99"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="70.666666666666671"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="32"/>
                                         <color key="textColor" systemColor="systemYellowColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="B2F-8v-0LN">
-                                        <rect key="frame" x="0.0" y="109" width="350" height="99"/>
+                                        <rect key="frame" x="0.0" y="80.666666666666657" width="350" height="70.666666666666657"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="72W-pS-PhZ">
-                                                <rect key="frame" x="0.0" y="0.0" width="171" height="99"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="171" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Honors Chemistry" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" red="0.0050738828400000002" green="0.0031940951910000002" blue="0.0048782435629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" red="1" green="0.12339964170000001" blue="0.1040000308" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Honors Chemistry">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ykb-TR-dp3">
-                                                <rect key="frame" x="179" y="0.0" width="171" height="99"/>
+                                                <rect key="frame" x="179" y="0.0" width="171" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Phys Ed II" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" red="0.0050738828400000002" green="0.0031940951910000002" blue="0.0048782435629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" red="1" green="0.12339964170000001" blue="0.1040000308" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Phys Ed II">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="TMb-QP-dqA">
-                                        <rect key="frame" x="0.0" y="218" width="350" height="99"/>
+                                        <rect key="frame" x="0.0" y="161.33333333333331" width="350" height="70.666666666666686"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wgn-UB-LJO">
-                                                <rect key="frame" x="0.0" y="0.0" width="171" height="99"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="171" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Family Living" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" red="0.0050738828400000002" green="0.0031940951910000002" blue="0.0048782435629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" red="1" green="0.12339964170000001" blue="0.1040000308" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Family Living">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k81-V1-dYW">
-                                                <rect key="frame" x="179" y="0.0" width="171" height="99"/>
+                                                <rect key="frame" x="179" y="0.0" width="171" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="English II" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" red="0.0050738828400000002" green="0.0031940951910000002" blue="0.0048782435629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" red="1" green="0.12339964170000001" blue="0.1040000308" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Political Studies/English II">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="6EC-3v-GGN">
-                                        <rect key="frame" x="0.0" y="327" width="350" height="99"/>
+                                        <rect key="frame" x="0.0" y="241.99999999999997" width="350" height="70.666666666666657"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYZ-vM-fZl">
-                                                <rect key="frame" x="0.0" y="0.0" width="171" height="99"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="171" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="History II" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" red="0.0050738828400000002" green="0.0031940951910000002" blue="0.0048782435629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" red="1" green="0.12339964170000001" blue="0.1040000308" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Political Studies/History II">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6J3-H1-NFr">
-                                                <rect key="frame" x="179" y="0.0" width="171" height="99"/>
+                                                <rect key="frame" x="179" y="0.0" width="171" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Algebra II" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" red="0.0050738828400000002" green="0.0031940951910000002" blue="0.0048782435629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" red="1" green="0.12339964170000001" blue="0.1040000308" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Algebra II">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="9ca-AH-dTN">
-                                        <rect key="frame" x="0.0" y="436" width="350" height="99"/>
+                                        <rect key="frame" x="0.0" y="322.66666666666669" width="350" height="70.666666666666686"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ZP-PI-MKr">
-                                                <rect key="frame" x="0.0" y="0.0" width="171" height="99"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="171" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Art Design II" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" red="0.0050738828400000002" green="0.0031940951910000002" blue="0.0048782435629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" red="1" green="0.12339964170000001" blue="0.1040000308" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Art Design II">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zax-wz-EsE">
-                                                <rect key="frame" x="179" y="0.0" width="171" height="99"/>
+                                                <rect key="frame" x="179" y="0.0" width="171" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Computer Science" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" red="0.0050738828400000002" green="0.0031940951910000002" blue="0.0048782435629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" red="1" green="0.12339964170000001" blue="0.1040000308" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Intro to Computer Science">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2zr-a2-g7P">
-                                        <rect key="frame" x="0.0" y="545" width="350" height="99"/>
+                                        <rect key="frame" x="0.0" y="403.33333333333331" width="350" height="70.666666666666686"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utL-5i-vXl">
-                                                <rect key="frame" x="0.0" y="0.0" width="171" height="99"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="171" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Engineering" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" red="0.0050738828400000002" green="0.0031940951910000002" blue="0.0048782435629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" red="1" green="0.12339964170000001" blue="0.1040000308" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Intro to Engineering">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sW5-3B-DOf">
-                                                <rect key="frame" x="179" y="0.0" width="171" height="99"/>
+                                                <rect key="frame" x="179" y="0.0" width="171" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Biomedical Science" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" red="0.0050738828400000002" green="0.0031940951910000002" blue="0.0048782435629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" red="1" green="0.12339964170000001" blue="0.1040000308" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Principles of Biomedical Science">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
@@ -2986,147 +2706,105 @@ There are four key steps to the Feynman Technique:
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="eTg-am-X81">
-                                <rect key="frame" x="20" y="60" width="350" height="753"/>
+                                <rect key="frame" x="20" y="60" width="350" height="554.66666666666663"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grade 12 Courses" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OiL-mz-19B">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="99"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="70.666666666666671"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="32"/>
                                         <color key="textColor" systemColor="systemYellowColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="oNd-At-il2">
-                                        <rect key="frame" x="0.0" y="109" width="350" height="99"/>
+                                        <rect key="frame" x="0.0" y="80.666666666666657" width="350" height="70.666666666666657"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hj-xE-cip">
-                                                <rect key="frame" x="0.0" y="0.0" width="171" height="99"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="171" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="APP Dev. in Swift" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" red="0.0050738828400000002" green="0.0031940951910000002" blue="0.0048782435629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" red="0.9195789539" green="0.56465891899999998" blue="0.1165137545" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="APP Development in Swift">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                     <color key="baseBackgroundColor" red="0.9195789539" green="0.56465891899999998" blue="0.1165137545" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iTs-BU-5mq">
-                                                <rect key="frame" x="179" y="0.0" width="171" height="99"/>
+                                                <rect key="frame" x="179" y="0.0" width="171" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Calculus I" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" red="0.0050738828400000002" green="0.0031940951910000002" blue="0.0048782435629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" red="0.9195789539" green="0.56465891899999998" blue="0.1165137545" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="NJIT Math 111 Calculus I">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                     <color key="baseBackgroundColor" red="0.9195789539" green="0.56465891899999998" blue="0.1165137545" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="FPE-Qe-6T5">
-                                        <rect key="frame" x="0.0" y="218" width="350" height="99"/>
+                                        <rect key="frame" x="0.0" y="161.33333333333334" width="350" height="70.666666666666657"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nkw-48-0g0">
-                                                <rect key="frame" x="0.0" y="0.0" width="171" height="99"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="171" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Research Methods " cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.9195789539" green="0.56465891899999998" blue="0.1165137545" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Research Methods and Data Analysis">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                     <color key="baseBackgroundColor" red="0.9195789539" green="0.56465891899999998" blue="0.1165137545" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qY-LY-CYw">
-                                                <rect key="frame" x="179" y="0.0" width="171" height="99"/>
+                                                <rect key="frame" x="179" y="0.0" width="171" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="AP English Literature " cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.9195789539" green="0.56465891899999998" blue="0.1165137545" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="AP English Literature and Composition">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                     <color key="baseBackgroundColor" red="0.9195789539" green="0.56465891899999998" blue="0.1165137545" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="e5O-Zo-AI4">
-                                        <rect key="frame" x="0.0" y="327" width="350" height="99"/>
+                                        <rect key="frame" x="0.0" y="241.99999999999997" width="350" height="70.666666666666657"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xz6-7g-hbY">
-                                                <rect key="frame" x="0.0" y="0.0" width="171" height="99"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="171" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Phys Ed IV" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" red="0.0050738828400000002" green="0.0031940951910000002" blue="0.0048782435629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" red="0.9195789539" green="0.56465891899999998" blue="0.1165137545" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Phys Ed IV">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zeI-6R-vjU">
-                                                <rect key="frame" x="179" y="0.0" width="171" height="99"/>
+                                                <rect key="frame" x="179" y="0.0" width="171" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Honors Physics" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" red="0.0050738828400000002" green="0.0031940951910000002" blue="0.0048782435629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" red="0.9195789539" green="0.56465891899999998" blue="0.1165137545" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Honors Physics">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="PhN-LA-jjy">
-                                        <rect key="frame" x="0.0" y="436" width="350" height="99"/>
+                                        <rect key="frame" x="0.0" y="322.66666666666669" width="350" height="70.666666666666686"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gro-ht-CH7">
-                                                <rect key="frame" x="0.0" y="0.0" width="171" height="99"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="171" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Spanish II" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
@@ -3137,30 +2815,23 @@ There are four key steps to the Feynman Technique:
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oih-Bf-IRC">
-                                                <rect key="frame" x="179" y="0.0" width="171" height="99"/>
+                                                <rect key="frame" x="179" y="0.0" width="171" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
+                                                <buttonConfiguration key="configuration" style="filled" title="Financial Literacy" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="strokeColor" red="0.9195789539" green="0.56465891899999998" blue="0.1165137545" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Financial Literacy">
-                                                            <attributes>
-                                                                <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                                 </buttonConfiguration>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="k57-Gb-O4g">
-                                        <rect key="frame" x="0.0" y="545" width="350" height="99"/>
+                                        <rect key="frame" x="0.0" y="403.33333333333331" width="350" height="70.666666666666686"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="buL-Zr-hIj">
-                                                <rect key="frame" x="0.0" y="0.0" width="171" height="99"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="171" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Biomedical" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
@@ -3171,7 +2842,7 @@ There are four key steps to the Feynman Technique:
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mdf-7L-0Yg">
-                                                <rect key="frame" x="179" y="0.0" width="171" height="99"/>
+                                                <rect key="frame" x="179" y="0.0" width="171" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Engineering" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
@@ -3184,10 +2855,10 @@ There are four key steps to the Feynman Technique:
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8bf-zS-OGY">
-                                        <rect key="frame" x="0.0" y="654" width="350" height="99"/>
+                                        <rect key="frame" x="0.0" y="484.00000000000006" width="350" height="70.666666666666686"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQh-Vv-rI8">
-                                                <rect key="frame" x="0.0" y="0.0" width="171" height="99"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="171" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="First Aid" cornerStyle="large">
                                                     <backgroundConfiguration key="background">
@@ -3198,7 +2869,7 @@ There are four key steps to the Feynman Technique:
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8b4-2c-NOS">
-                                                <rect key="frame" x="179" y="0.0" width="171" height="99"/>
+                                                <rect key="frame" x="179" y="0.0" width="171" height="70.666666666666671"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="First Aid">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
