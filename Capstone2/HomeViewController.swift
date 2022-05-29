@@ -15,9 +15,9 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         
         navigationController?.navigationItem.leftBarButtonItem?.isEnabled = false
+//
 
-
-        // Do any additional setup after loading the view.
+        self.navigationController?.navigationBar.tintColor = UIColor.white// for titles, buttons, etc.
     }
     
     @IBAction func antiguaTapped(_ sender: Any) {

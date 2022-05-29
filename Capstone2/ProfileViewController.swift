@@ -37,7 +37,8 @@ class ProfileViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.navigationController?.navigationBar.tintColor = UIColor.white// for titles, buttons, etc.
+
         //setBackgroundImage(UIImage(named: "avatar-pfp-1.jpeg"), for: .normal)
         // Do any additional setup after loading the view.
     }

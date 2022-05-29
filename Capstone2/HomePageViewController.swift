@@ -16,6 +16,8 @@ class HomePageViewController: UIViewController {
         super.viewDidLoad()
         
         backButton.isEnabled = false
+        self.navigationController?.navigationBar.tintColor = UIColor.white// for titles, buttons, etc.
+
 
 
         // Do any additional setup after loading the view.

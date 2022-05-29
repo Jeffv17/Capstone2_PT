@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         setUpElements()
+        self.navigationController?.navigationBar.tintColor = UIColor.white// for titles, buttons, etc.
+
     }
     func setUpElements() {
         Utilities.styleFilledButton(signUpButton)
