@@ -16,6 +16,7 @@ class SocialSkillsTraining: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        self.navigationController?.navigationBar.tintColor = UIColor.white// for titles, buttons, etc.
 
     }
     

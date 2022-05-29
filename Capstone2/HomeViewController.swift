@@ -15,9 +15,9 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         
         navigationController?.navigationItem.leftBarButtonItem?.isEnabled = false
+//
 
-
-        // Do any additional setup after loading the view.
+        self.navigationController?.navigationBar.tintColor = UIColor.white// for titles, buttons, etc.
     }
     
     @IBAction func antiguaTapped(_ sender: Any) {
@@ -27,7 +27,7 @@ class HomeViewController: UIViewController {
     @IBAction func signOut(_ sender: Any) {
         
          // 1
-         guard let user = Auth.auth().currentUser else { return }
+        guard Auth.auth().currentUser != nil else { return }
         
            // 4
            do {

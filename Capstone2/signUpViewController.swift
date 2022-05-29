@@ -18,16 +18,18 @@ class signUpViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.tintColor = UIColor.white// for titles, buttons, etc.
+
 
         // Do any additional setup after loading the view.
         setUpElements()
     }
     func setUpElements() {
-            Utilities.styleTextField(firstNameTextField)
-            Utilities.styleTextField(lastNameTextField)
-            Utilities.styleTextField(emailTextField)
-            Utilities.styleTextField(passwordTextField)
-            Utilities.styleFilledButton(signUpButton)
+      //      Utilities.styleTextField(firstNameTextField)
+           // Utilities.styleTextField(lastNameTextField)
+         //   Utilities.styleTextField(emailTextField)
+           // Utilities.styleTextField(passwordTextField)
+          //  Utilities.styleFilledButton(signUpButton)
     }
     /*
     // MARK: - Navigation

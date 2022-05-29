@@ -16,6 +16,8 @@ class HomePageViewController: UIViewController {
         super.viewDidLoad()
         
         backButton.isEnabled = false
+        self.navigationController?.navigationBar.tintColor = UIColor.white// for titles, buttons, etc.
+
 
 
         // Do any additional setup after loading the view.
@@ -25,7 +27,7 @@ class HomePageViewController: UIViewController {
     @IBAction func signOut(_ sender: Any) {
         
          // 1
-         guard let user = Auth.auth().currentUser else { return }
+        guard Auth.auth().currentUser != nil else { return }
         
            // 4
            do {
